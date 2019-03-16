@@ -8,19 +8,19 @@ function setup() {
     canvas.style('left', '0');
     canvas.style('z-index', '-1');
 
-    // for (var i = 0; i < 150; i++) {
+    for (var i = 0; i < 150; i++) {
 
-    //     let r = random(2, 40); // radius
-    //     let x = random(0 + r, windowWidth - r); 
-    //     let y = random(0 + r, windowHeight - r);
-    //     let a = random(0, 180); // alpha
+        let r = random(2, 10); // radius
+        let x = random(0 + r, windowWidth - r); 
+        let y = random(0 + r, windowHeight - r);
+        let a = random(0, 140); // alpha
 
-    //     dots.push(new Circle(x,y,r,a));
-    // }
+        dots.push(new Circle(x,y,r,a));
+    }
 
     main = new Corridor();
     main.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
-    main.setCorridorStart(0, 0, windowWidth*0.6, windowHeight);
+    main.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
 
     frameRate(20);
 }
@@ -29,6 +29,39 @@ function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
     main.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
     main.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
+}
+
+function draw() {
+    background('#F5EB70');
+
+    main.renderEnd();
+    main.renderRight();
+    main.renderBottom();
+    main.renderLeft();
+    main.renderTop();
+    main.renderLight();
+    main.renderDoor();
+
+
+
+    var scalar = 3;
+    mx = map(mouseX, 0, width, -1, 1);
+    my = map(mouseY, 0, height, -1, 1);
+
+    main.setCorridorEnd(100 + mx * scalar, (6 / 24) * windowHeight + my * scalar, 250, (12 / 24) * windowHeight);
+
+
+
+    // mouseXpc = mouseX / windowWidth;
+    // mouseYpc = mouseY / windowHeight;
+
+
+    for (dot of dots) {
+        // dot.applyForce(); // add this for extra vectors to apply
+        dot.update();
+        dot.render();
+    }
+
 }
 
 class Corridor {
@@ -93,27 +126,27 @@ class Corridor {
     renderRight() {
         noStroke();
         fill('#F5EB70');
-        quad(this.p2.x, this.p2.y, 
-            this.o2.x, this.o2.y, 
-            this.o3.x, this.o3.y, 
+        quad(this.p2.x, this.p2.y,
+            this.o2.x, this.o2.y,
+            this.o3.x, this.o3.y,
             this.p3.x, this.p3.y);
     }
 
     renderBottom() {
         noStroke();
         fill('#EADC5F');
-        quad(this.p4.x, this.p4.y, 
-            this.p3.x, this.p3.y, 
-            this.o3.x, this.o3.y, 
+        quad(this.p4.x, this.p4.y,
+            this.p3.x, this.p3.y,
+            this.o3.x, this.o3.y,
             this.o4.x, this.o4.y);
     }
 
     renderLeft() {
         noStroke();
         fill('#D8C851');
-        quad(this.o1.x, this.o1.y, 
-            this.p1.x, this.p1.y, 
-            this.p4.x, this.p4.y, 
+        quad(this.o1.x, this.o1.y,
+            this.p1.x, this.p1.y,
+            this.p4.x, this.p4.y,
             this.o4.x, this.o4.y);
     }
 
@@ -142,53 +175,18 @@ class Corridor {
         fill('#CAB84A');
         let offsetVert = 80;
         let offsetHorz = 40;
-        quad(this.p1.x, this.p1.y, 
-            this.p1.x + offsetHorz, this.p1.y - offsetVert, 
-            this.p4.x + offsetHorz, this.p4.y + offsetVert, 
+        quad(this.p1.x, this.p1.y,
+            this.p1.x + offsetHorz, this.p1.y - offsetVert,
+            this.p4.x + offsetHorz, this.p4.y + offsetVert,
             this.p4.x, this.p4.y);
     }
 }
-
-function draw() {
-    background('#F5EB70');
-
-    main.renderEnd();
-    main.renderRight();
-    main.renderBottom();
-    main.renderLeft();
-    main.renderTop();
-    main.renderLight();
-    main.renderDoor();
-
-
-
-    var scalar = 3;
-    mx = map(mouseX, 0, width, -1, 1);
-    my = map(mouseY, 0, height, -1, 1);
-    
-    main.setCorridorEnd(100 + mx * scalar, (6 / 24) * windowHeight + my * scalar, 250, (12 / 24) * windowHeight);
-    
-
-
-    // mouseXpc = mouseX / windowWidth;
-    // mouseYpc = mouseY / windowHeight;
-
-
-    // for (dot of dots) {
-    //     // dot.applyForce(); // add this for extra vectors to apply
-    //     dot.update();
-    //     dot.render();
-    // }
-
-}
-
-
 
 class Circle {
     constructor(x, y, radius, alpha) {
         this.pos = createVector(x, y);
         this.radius = radius;
-        this.pScale = 5;
+        this.pScale = 0;
         this.alpha = alpha;
 
         this.vel = createVector(0, 0);
@@ -211,7 +209,7 @@ class Circle {
 
         // Update velocity
         this.vel.add(this.acc);
-        this.vel.limit(0.1);
+        this.vel.limit(0.2);
 
         // Update position
         this.pos.add(this.vel);
@@ -233,6 +231,6 @@ class Circle {
     render() {
         fill(color(255, 255, 255, this.alpha));
         noStroke();
-        ellipse(this.pos.x + this.pScale * mouseXpc, this.pos.y + this.pScale * mouseYpc, this.radius, this.radius);
+        ellipse(this.pos.x, this.pos.y, this.radius, this.radius);
     }
 }
