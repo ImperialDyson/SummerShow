@@ -1,4 +1,5 @@
 var canvas;
+var corr;
 var dots = [];
 
 function setup() {
@@ -11,57 +12,54 @@ function setup() {
     for (var i = 0; i < 150; i++) {
 
         let r = random(2, 10); // radius
-        let x = random(0 + r, windowWidth - r); 
+        let x = random(0 + r, windowWidth - r);
         let y = random(0 + r, windowHeight - r);
         let a = random(0, 140); // alpha
 
-        dots.push(new Circle(x,y,r,a));
+        dots.push(new Circle(x, y, r, a));
     }
 
-    main = new Corridor();
-    main.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
-    main.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
+    corr = new Corridor();
+    updateCorridorSize();
 
     frameRate(20);
 }
 
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
-    main.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
-    main.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
+    updateCorridorSize();
+}
+
+// TODO: This function needs to be updated to support phone/tablet screen sizes.
+function updateCorridorSize() {
+    corr.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
+    corr.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
 }
 
 function draw() {
     background('#F5EB70');
 
-    main.renderEnd();
-    main.renderRight();
-    main.renderBottom();
-    main.renderLeft();
-    main.renderTop();
-    main.renderLight();
-    main.renderDoor();
+    corr.renderEnd();
+    corr.renderRight();
+    corr.renderBottom();
+    corr.renderLeft();
+    corr.renderTop();
+    corr.renderLight();
+    corr.renderDoor();
 
-
-
+    // TODO: This code should ignore mouse when outside acceptable region.
+    // This should prevent it from 'considering' the mouse when it is resizing window.
+    // This should prevent corridor end from jittering.
     var scalar = 3;
     mx = map(mouseX, 0, width, -1, 1);
     my = map(mouseY, 0, height, -1, 1);
-
-    main.setCorridorEnd(100 + mx * scalar, (6 / 24) * windowHeight + my * scalar, 250, (12 / 24) * windowHeight);
-
-
-
-    // mouseXpc = mouseX / windowWidth;
-    // mouseYpc = mouseY / windowHeight;
-
+    corr.setCorridorEnd(100 + mx * scalar, (6 / 24) * windowHeight + my * scalar, 250, (12 / 24) * windowHeight);
 
     for (dot of dots) {
         // dot.applyForce(); // add this for extra vectors to apply
         dot.update();
         dot.render();
     }
-
 }
 
 class Corridor {
