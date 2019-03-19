@@ -1,6 +1,7 @@
 var canvas;
 var corr;
 var dots = [];
+var mobile;
 
 function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
@@ -12,12 +13,14 @@ function setup() {
     for (var i = 0; i < 150; i++) {
 
         let r = random(2, 10); // radius
-        let x = random(0 + r, windowWidth - r);
-        let y = random(0 + r, windowHeight - r);
+        let x = random(0 + r, width - r);
+        let y = random(0 + r, height - r);
         let a = random(0, 140); // alpha
 
         dots.push(new Circle(x, y, r, a));
     }
+
+    mobile = isMobileDevice();
 
     corr = new Corridor();
     updateCorridorSize();
@@ -26,21 +29,37 @@ function setup() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
-    updateCorridorSize();
+    if (mobile == false) {
+        resizeCanvas(windowWidth, windowHeight);
+        updateCorridorSize();
+    }
 }
+
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
 
 // TODO: This function needs to be updated to support phone/tablet screen sizes.
 function updateCorridorSize(mx, my) {
 
-    if (mx != null) {
-        var scalar = 3;
-        corr.setCorridorEnd(100 + mx * scalar, (6 / 24) * windowHeight + my * scalar, 250, (12 / 24) * windowHeight);
+    if (mobile == false) {
+        var doorHeight = (12 / 24) * height;
+        var doorWidth = 0.55 * doorHeight;
 
-    } else {
-        corr.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
-        corr.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
+        if (mx != null && (mx < 0.95 && mx > -0.95)) {
+            var scalar = 3;
+            corr.setCorridorEnd(100 + mx * scalar, (6 / 24) * height + my * scalar, doorWidth, doorHeight);
 
+        }
+        else {
+            corr.setCorridorEnd(100, (6 / 24) * height, doorWidth, doorHeight);
+            corr.setCorridorStart(0, 0, width * 0.6, height);
+
+        }
+    }
+    else {
+        corr.setCorridorEnd(80, (6 / 24) * height, (8 / 24) * width, (12 / 24) * height);
+        corr.setCorridorStart(0, 0, width, height);
     }
 }
 
@@ -58,7 +77,7 @@ function draw() {
     // TODO: This code should ignore mouse when outside acceptable region.
     // This should prevent it from 'considering' the mouse when it is resizing window.
     // This should prevent corridor end from jittering.
-    
+
     mx = map(mouseX, 0, width, -1, 1);
     my = map(mouseY, 0, height, -1, 1);
     updateCorridorSize(mx, my);
@@ -82,9 +101,9 @@ class Corridor {
         this.p4 = createVector();
 
         this.o1 = createVector(0, 0);
-        this.o2 = createVector(windowWidth, 0);
-        this.o3 = createVector(windowWidth, windowHeight);
-        this.o4 = createVector(0, windowHeight);
+        this.o2 = createVector(width, 0);
+        this.o3 = createVector(width, height);
+        this.o4 = createVector(0, height);
     }
 
     setCorridorStart(x, y, w, h) {
