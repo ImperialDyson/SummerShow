@@ -31,9 +31,17 @@ function windowResized() {
 }
 
 // TODO: This function needs to be updated to support phone/tablet screen sizes.
-function updateCorridorSize() {
-    corr.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
-    corr.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
+function updateCorridorSize(mx, my) {
+
+    if (mx != null) {
+        var scalar = 3;
+        corr.setCorridorEnd(100 + mx * scalar, (6 / 24) * windowHeight + my * scalar, 250, (12 / 24) * windowHeight);
+
+    } else {
+        corr.setCorridorEnd(100, (6 / 24) * windowHeight, 250, (12 / 24) * windowHeight);
+        corr.setCorridorStart(0, 0, windowWidth * 0.6, windowHeight);
+
+    }
 }
 
 function draw() {
@@ -50,10 +58,10 @@ function draw() {
     // TODO: This code should ignore mouse when outside acceptable region.
     // This should prevent it from 'considering' the mouse when it is resizing window.
     // This should prevent corridor end from jittering.
-    var scalar = 3;
+    
     mx = map(mouseX, 0, width, -1, 1);
     my = map(mouseY, 0, height, -1, 1);
-    corr.setCorridorEnd(100 + mx * scalar, (6 / 24) * windowHeight + my * scalar, 250, (12 / 24) * windowHeight);
+    updateCorridorSize(mx, my);
 
     for (dot of dots) {
         // dot.applyForce(); // add this for extra vectors to apply
