@@ -10,7 +10,7 @@ html, body {
 h1 {
     font-weight: 700;
     font-size: 24pt;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
     margin: 0;
 }
 
@@ -32,7 +32,7 @@ h3 {
     margin-left: 40%;
 } */
 
-.styled {
+#cal-button {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -42,7 +42,7 @@ h3 {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.styled:hover {
+#cal-button:hover {
     background-color: rgba(255, 255, 255, 1);
 }
 
