@@ -46,8 +46,8 @@ function updateCorridorSize(mx, my) {
         var doorHeight = (12 / 24) * height;
         var doorWidth = 0.55 * doorHeight;
 
-        if (mx != null && (mx < 0.95 && mx > -0.95)) {
-            var scalar = 3;
+        if (mx != null && (mx < 0.999 && mx > -0.999)) {
+            var scalar = 5;
             corr.setCorridorEnd(100 + mx * scalar, (6 / 24) * height + my * scalar, doorWidth, doorHeight);
 
         }
@@ -86,6 +86,14 @@ function draw() {
         // dot.applyForce(); // add this for extra vectors to apply
         dot.update();
         dot.render();
+    }
+
+    if (isMobileDevice()) {
+        noStroke();
+        fill(color(255, 255, 255, 80));
+        rect(0,0,width,height);
+
+        // canvas.filter("blur", 10);
     }
 }
 
