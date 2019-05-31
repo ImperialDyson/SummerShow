@@ -4,12 +4,15 @@ collections:
   pages:
     output: true
     permalink: /:name
-  posts:
+  pg:
     output: true
-    permalink: /blog/:slug
-  projects:
+    permalink: /pg/:slug
+  phd:
     output: true
-    permalink: /project/:slug
+    permalink: /phd/:slug
+  ug:
+    output: true
+    permalink: /ug/:slug
 
 defaults:
   -
@@ -26,13 +29,19 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: "pg"
     values:
-      layout: "post"
+      layout: "project"
   -
     scope:
       path: ""
-      type: "projects"
+      type: "phd"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "ug"
     values:
       layout: "project"
 
