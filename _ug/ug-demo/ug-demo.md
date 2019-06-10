@@ -4,6 +4,7 @@ subtitle: 'This is an example of the things you can do to make your project look
 date: 2018-06-30 00:00:00
 description: Please put up to two short sentences here explaining what you're project is about. 
 featured_image: '/images/placeholder/Placeholder.jpg' # This needs to be square and XXX by XXX pixels.
+tags: [Demo, Project, Tag]
 ---
 
 ![](/images/placeholder/Hero.jpg)

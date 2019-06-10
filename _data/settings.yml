@@ -3,7 +3,7 @@ basic_settings:
   favicon_image: /images/logo.svg
 
 header_settings:
-  logo_image: # TODO: Add logo (navbar formatting seems to fuck up when in there)
+  logo_image: /images/logo.svg
   logo_width: 50
 
 menu_settings:

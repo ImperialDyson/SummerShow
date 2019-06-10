@@ -135,8 +135,6 @@ $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 $overlay-opacity: {{ site.data.settings.grid_settings.overlay_opacity }};
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
-
-
 // - - - - - - - - - - Global styles
 
 @import "_basic";
@@ -150,5 +148,28 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import "_includes/_syntax";
 @import "_includes/_listing";
 @import "_includes/_contact-form";
+
+//  - - - - - - - - - - Custom styles
+
+.menu {
+	@include mq(tabletp) {
+        margin-top: $logo-width / 2;
+    }
+}
+
+.tag-custom {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #AE9F9E;
+    margin: 15px 0px;
+}
+
+.tag-custom span {
+    background-color: #FED136;
+    margin-right: 5px;
+    padding: 10px 10px;
+}
 
 

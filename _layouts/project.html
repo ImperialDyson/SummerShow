@@ -8,7 +8,11 @@ layout: default
 
 		<h1>{{ page.title }}</h1>
 		<p>{{ page.subtitle }}</p>
-
+		<div class="tag-custom">
+			{% for tag in page.tags %}
+				<span>{{ tag }}</span>
+			{% endfor %}
+		</div>
 	</div>
 
 </section>
