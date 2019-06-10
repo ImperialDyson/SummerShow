@@ -1,12 +1,13 @@
 ---
-title: 'PG Demo Project'
-subtitle: 'This is an example of the things you can do to make your project look epic!'
-date: 2018-06-30 00:00:00
-description: Please put up to two short sentences here explaining what you're project is about. 
-featured_image: '/images/placeholder/Placeholder.jpg' # This needs to be square and XXX by XXX pixels.
+title: The Show
+subtitle: This is the DesEng show.
+description: 
+featured_image: /images/about/Hero.jpg
 ---
 
-![](/images/placeholder/Hero.jpg)
+![](/images/about/Hero.jpg)
+
+## Features
 
 ## Demo Project
 
@@ -48,20 +49,20 @@ You can throw in some horizontal rules too:
 Here's a really neat way to present your images - galleries:
 
 <div class="gallery" data-columns="2">
-	<img src="/images/placeholder/I.jpg">
-	<img src="/images/placeholder/Am.jpg">
-	<img src="/images/placeholder/A.jpg">
-	<img src="/images/placeholder/Placeholder.jpg">
+	<img src="/images/about/I.jpg">
+	<img src="/images/about/Am.jpg">
+	<img src="/images/about/A.jpg">
+	<img src="/images/about/Placeholder.jpg">
 </div>
 
 Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
 
 ```html
 <div class="gallery" data-columns="2">
-	<img src="/images/placeholder/I.jpg">
-	<img src="/images/placeholder/Am.jpg">
-	<img src="/images/placeholder/A.jpg">
-	<img src="/images/placeholder/Placeholder.jpg">
+	<img src="/images/about/I.jpg">
+	<img src="/images/about/Am.jpg">
+	<img src="/images/about/A.jpg">
+	<img src="/images/about/Placeholder.jpg">
 </div>
 ```
 
@@ -78,10 +79,10 @@ Here's another gallery with only one column, which creates a carousel slide-show
 A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
 
 <div class="gallery" data-columns="1">
-	<img src="/images/placeholder/I.jpg">
-	<img src="/images/placeholder/Am.jpg">
-	<img src="/images/placeholder/A.jpg">
-	<img src="/images/placeholder/Placeholder.jpg">
+	<img src="/images/about/I.jpg">
+	<img src="/images/about/Am.jpg">
+	<img src="/images/about/A.jpg">
+	<img src="/images/about/Placeholder.jpg">
 </div>
 
 ### What about videos?

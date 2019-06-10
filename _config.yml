@@ -9,7 +9,7 @@ collections:
     permalink: /pg/:slug
   phd:
     output: true
-    permalink: /phd/:slug
+    permalink: /research/:slug
   ug:
     output: true
     permalink: /ug/:slug
@@ -35,7 +35,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "phd"
+      type: "research"
     values:
       layout: "project"
   -

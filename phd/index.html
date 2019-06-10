@@ -1,13 +1,13 @@
 ---
 layout: default
-title: A stylish full-width masonry grid theme.
-description: Board is a stylish full-width masonry grid theme. Made for designers, artists, photographers and developers to show off their best work.
+title: Research
+description: 
 featured_image: /images/social.jpg
 ---
 
 <section class="listing">
 	<div class="content-wrap listing-wrap">
-		{% for project in site.phd reversed %}
+		{% for project in site.research reversed %}
 
 		<div class="listing-item">
 
@@ -21,6 +21,11 @@ featured_image: /images/social.jpg
 					<div class="listing-item__info">
 						<h2 class="listing-item__title">{{ project.title }}</h2>
 						<p class="listing-item__subtitle">{{ project.subtitle }}</p>
+						<div class="tag-custom">
+							{% for tag in project.tags %}
+								<span>{{ tag }}</span>
+							{% endfor %}
+						</div>
 					</div>
 				</div>
 
