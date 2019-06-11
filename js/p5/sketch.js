@@ -15,10 +15,16 @@ var particles = []
 var flowfield;
 
 function setup() {
-    createCanvas(800, 600);
+    // createCanvas(800, 600);
+    canvas = createCanvas(windowWidth, windowHeight);
+    canvas.elt.style.position = 'fixed';
+    canvas.style('top', '0');
+    canvas.style('left', '0');
+    canvas.style('z-index', '-1');
+
     cols = floor(width / scl);
     rows = floor(height / scl);
-    fr = createP('');
+    // fr = createP('');
 
     flowfield = new Array(cols * rows);
 
@@ -68,5 +74,5 @@ function draw() {
         particles[i].show();
     }
 
-    fr.html(floor(frameRate()));
+    // fr.html(floor(frameRate()));
 }
