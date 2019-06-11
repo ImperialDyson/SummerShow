@@ -12,7 +12,7 @@ menu_settings:
       url: '/'
     - title: 'Undergraduate'
       url: '/ug/'
-    - title: 'Postgrad'
+    - title: 'Postgraduate'
       url: '/pg/'
     - title: 'Research'
       url: '/research/'
