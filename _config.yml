@@ -8,7 +8,7 @@ collections:
   pg:
     output: true
     permalink: /pg/:slug
-  phd:
+  research:
     output: true
     permalink: /research/:slug
   ug:
