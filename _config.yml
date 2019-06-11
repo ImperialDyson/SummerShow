@@ -30,6 +30,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "ug"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
       type: "pg"
     values:
       layout: "project"
@@ -37,12 +43,6 @@ defaults:
     scope:
       path: ""
       type: "research"
-    values:
-      layout: "project"
-  -
-    scope:
-      path: ""
-      type: "ug"
     values:
       layout: "project"
 
