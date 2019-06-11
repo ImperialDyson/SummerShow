@@ -2,6 +2,7 @@
 [context.beta] # 'beta' is the branch name
   command = "jekyll build"
   publish = "_site"
+  # TODO: set the base directory to 2019/
 
 # Redirect from root domain to the summershow subdomain.
 [[redirects]]
