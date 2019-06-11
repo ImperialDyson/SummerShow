@@ -17,7 +17,7 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image }}">
-	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
+	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
 
 	<!-- Twitter Card -->
@@ -97,8 +97,10 @@
 	{{ site.data.settings.advanced_settings.footer_js }}
 	{% endif %}
 
+	{% if page.url == "/" %}
 	<script language="javascript" type="text/javascript" src="js/p5/sketch.js"></script>
 	<script language="javascript" type="text/javascript" src="js/p5/particle.js"></script>
+	{% endif %}
 
 </body>
 
