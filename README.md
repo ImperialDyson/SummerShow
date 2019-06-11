@@ -21,6 +21,7 @@
 
 <p align="center">
   <strong>Production Build</strong>
+  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/svgs/solid/hammer.svg?sanitize=true" alt="test" height="15">
 </p>
 <p align="center">
    <a href="https://app.netlify.com/sites/summershow-dsde/deploys"><img src="https://api.netlify.com/api/v1/badges/562a093f-d4fc-426b-ae6c-397d38253c36/deploy-status" alt="Netlify Status" /></a>
