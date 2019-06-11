@@ -1,5 +1,6 @@
 site: Final Year Show
 
+collections_dir: collections
 collections:
   pages:
     output: true
