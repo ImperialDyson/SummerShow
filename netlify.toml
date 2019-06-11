@@ -1,3 +1,8 @@
+# Specific branch context for beta building
+[context.beta] # 'beta' is the branch name
+  command = "jekyll build"
+  publish = "_site"
+
 # Redirect from root domain to the summershow subdomain.
 [[redirects]]
   from = "https://imperialdyson.uk/*"
