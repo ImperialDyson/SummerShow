@@ -1,0 +1,5 @@
+# Redirect from root domain to the summershow subdomain.
+[[redirects]]
+  from = "https://imperialdyson.uk/*"
+  to = "https://summershow.imperialdyson.uk/:splat"
+  force = true # redirect applied regardless if if there's a file already existing
