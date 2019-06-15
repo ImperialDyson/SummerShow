@@ -7,9 +7,9 @@ int totalFrames = 360;
 int counter = 0;
 boolean record = false;
 
-float increment = 0.01;
+float increment = 0.005;
 
-color[] colors = {#ff4800, #ffe362, #ceecef, #9be15d};
+color[] colors = {#ceecef, #ffe362,#ff4800, #ff4800};
 color newColor;
 
 // Just for non-looping demo
@@ -58,8 +58,8 @@ void render(float percent) {
         // If you aren't worried about looping run this instead for speed!
         n = (float) noise.eval(xoff, yoff, zoff);
       }
-      //float bright = n > 0 ? n : 0;
-      float bright = map(n, -1, 1, 0, 1);
+      float bright = n > 0 ? n : 0;
+      //float bright = map(n, -1, 1, 0, 1);
          
       if (bright < 0.33) {
          newColor = lerpColor(colors[0], colors[1], map(bright, 0, 0.33, 0, 1));
