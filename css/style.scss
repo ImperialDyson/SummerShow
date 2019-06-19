@@ -159,7 +159,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 .author-info {
     display: flex;
-    vertical-align: middle;
+    align-items: center;
 }
 
 .image-cropper {
@@ -181,10 +181,13 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 .subtitle {
     font-style: italic;
-    display: inline;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 .portfolio-link {
+    height: 20px;
     margin-right: 13px;
     margin-left: 15px;
     padding: 0px 3px;
@@ -201,24 +204,31 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
     color: #fff;
 }
 
-.info-custom {
-    font-size: 11px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #AE9F9E;
+.info-container {
     margin: 15px 0px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-.info-custom #repo {
+.info-tag {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
     background-color: #8CEE7B;
     margin-top: 5px;
     margin-right: 5px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     white-space: nowrap;
+    border-radius: 500px;
+}
+
+.info-tag:hover {
+    color: #FFFFFF;
+    background-color: #8CEE7B;
 }
 
 .tag-custom {
