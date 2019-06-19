@@ -45,12 +45,12 @@ First, it needs to be calibrated. To do this we use key markings on the bed that
 Then we could warp any image that comes in at an angled perspective, to make it appear flat!
 
 <div class="gallery" data-columns="2">
-    <img src="printing_monitor_warping32.jpg" />
     <img src="printing_monitor_warping11.jpg" />
     <img src="printing_monitor_warping12.jpg" />
     <img src="printing_monitor_warping21.jpg" />
     <img src="printing_monitor_warping22.jpg" />
     <img src="printing_monitor_warping31.jpg" />
+    <img src="printing_monitor_warping32.jpg" />
 </div>
 
 
