@@ -157,6 +157,43 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
     }
 }
 
+.portfolio-link {
+    margin-right: 13px;
+    margin-left: 15px;
+    padding: 0px 3px;
+    border: 2px solid #0077b5;
+    color: #0077b5;
+    font-size: 11px;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+.portfolio-link:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.info-custom {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #AE9F9E;
+    margin: 15px 0px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.info-custom #repo {
+    background-color: #8CEE7B;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    white-space: nowrap;
+}
+
 .tag-custom {
     font-size: 11px;
     letter-spacing: 1px;

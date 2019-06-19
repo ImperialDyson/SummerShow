@@ -7,7 +7,13 @@ layout: default
 	<div class="wrap">
 
 		<h1>{{ page.title }}</h1>
-		<p class="subtitle">{{ page.author }}</p>
+		<p class="subtitle">{{ page.author }}{% if page.portfolio %} <a class="portfolio-link" href="{{ page.portfolio }}">Portfolio</a>{% endif %}
+		</p>
+		{% if page.repo %}
+		<div class="info-custom">
+			<span id="repo"><a href="{{ page.repo }}">Project repository</a></span>
+		</div>
+		{% endif %}
 		<p>{{ page.subtitle }}</p>
 		<div class="tag-custom">
 			{% for tag in page.tags %}
