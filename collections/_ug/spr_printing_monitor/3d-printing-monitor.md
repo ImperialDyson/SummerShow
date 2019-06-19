@@ -1,6 +1,7 @@
 ---
 title: '3D Printing Monitor'
 author: Ben Greenberg
+profile: './printing_monitor_profile.jpg'
 portfolio: https://bengreenberg.uk
 subtitle: ''
 date: 2019-05-01 00:00:00
