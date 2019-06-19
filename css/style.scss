@@ -157,6 +157,33 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
     }
 }
 
+.author-info {
+    display: flex;
+    vertical-align: middle;
+}
+
+.image-cropper {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.image-cropper img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.subtitle {
+    font-style: italic;
+    display: inline;
+}
+
 .portfolio-link {
     margin-right: 13px;
     margin-left: 15px;
@@ -212,8 +239,4 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
     margin-right: 5px;
     padding: 10px 10px;
     white-space: nowrap;
-}
-
-.subtitle {
-    font-style: italic;
 }
