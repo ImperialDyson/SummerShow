@@ -68,10 +68,10 @@ The algorithm compares data collected in different regions of the print. Primari
 Here are some of the graphs of the output data for different prints (some successful and some with errors).
 
 <div class="gallery" data-columns="2">
-	<img src="./printing_monitor_results_filament.png" />
-    <img src="./printing_monitor_results_knocked.png" />
-    <img src="./printing_monitor_results_removed.png" />
     <img src="./printing_monitor_results_success.png" />
+	<img src="./printing_monitor_results_filament.png" />
+    <img src="./printing_monitor_results_removed.png" />
+    <img src="./printing_monitor_results_knocked.png" />
 </div>
 
 ## Evaluation
