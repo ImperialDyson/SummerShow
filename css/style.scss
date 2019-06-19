@@ -160,6 +160,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 .author-info {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .image-cropper {
