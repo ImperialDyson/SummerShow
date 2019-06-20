@@ -7,24 +7,19 @@ layout: default
 	<div class="wrap">
 
 		<h1>{{ page.title }}</h1>
-		<div class="author-info">
-			{% if page.author_image %}
-			<div class="image-cropper"><img src="{{page.author_image}}"></div>
-			{% endif %}
-			<p class="subtitle">{{ page.author }}</p>
-			{% if page.portfolio_url %}<a class="portfolio-link" href="{{ page.portfolio_url }}">Portfolio</a>{% endif %}
-		</div>
+		<p class="subtitle">{{ page.description }}</p>
 		<div class="tag-custom">
 			{% for tag in page.tags %}
 			<span>{{ tag }}</span>
 			{% endfor %}
 		</div>
-		<p>{{ page.description }}</p>
-		{% if page.project_repo_url %}
-		<div class="info-container">
-			<a class="info-tag" id="repo" href="{{ page.project_repo_url }}">Project repository</a>
+		<div class="author-info">
+			{% if page.author_image %}<div class="image-cropper"><img src="{{page.author_image}}"></div>{% endif %}
+			<p class="author">{% unless page.author_image %}By {% endunless %}{{ page.author }}</p>
+			{% if page.portfolio_url %}<a class="portfolio-link" href="{{ page.portfolio_url }}">Portfolio</a>{% endif %}
+			{% if page.project_repo_url %}<a class="portfolio-link" id="repo" href="{{ page.project_repo_url }}">Project Repository</a>{% endif %}
 		</div>
-		{% endif %}
+		
 	</div>
 
 </section>
