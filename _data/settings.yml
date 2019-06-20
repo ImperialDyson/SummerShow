@@ -34,11 +34,11 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: ''
-  twitter_url: ''
-  instagram_url: ''
+  facebook_url: 'https://www.facebook.com/events/366845300611356/'
+  twitter_url: 'https://twitter.com/ImperialDyson'
+  instagram_url: 'https://www.instagram.com/imperialdyson/'
   snapchat_url: ''
-  youtube_url: ''
+  youtube_url: 'https://www.youtube.com/channel/UCt3yDcU1N5STi0Iy_U4-oIA'
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
@@ -59,7 +59,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/company/imperialdyson/about/'
 
 color_settings:
   background_color: '#ffffff'
