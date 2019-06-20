@@ -8,23 +8,23 @@ layout: default
 
 		<h1>{{ page.title }}</h1>
 		<div class="author-info">
-			{% if page.profile %}
-			<div class="image-cropper"><img src="{{page.profile}}"></div>
+			{% if page.author_image %}
+			<div class="image-cropper"><img src="{{page.author_image}}"></div>
 			{% endif %}
 			<p class="subtitle">{{ page.author }}</p>
-			{% if page.portfolio %}<a class="portfolio-link" href="{{ page.portfolio }}">Portfolio</a>{% endif %}
+			{% if page.portfolio_url %}<a class="portfolio-link" href="{{ page.portfolio_url }}">Portfolio</a>{% endif %}
 		</div>
-		{% if page.repo %}
-		<div class="info-container">
-			<a class="info-tag" id="repo" href="{{ page.repo }}">Project repository</a>
-		</div>
-		{% endif %}
 		<div class="tag-custom">
 			{% for tag in page.tags %}
-				<span>{{ tag }}</span>
+			<span>{{ tag }}</span>
 			{% endfor %}
 		</div>
 		<p>{{ page.description }}</p>
+		{% if page.project_repo_url %}
+		<div class="info-container">
+			<a class="info-tag" id="repo" href="{{ page.project_repo_url }}">Project repository</a>
+		</div>
+		{% endif %}
 	</div>
 
 </section>

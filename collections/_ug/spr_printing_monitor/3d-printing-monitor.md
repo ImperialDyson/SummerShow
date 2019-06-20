@@ -1,12 +1,12 @@
 ---
 title: '3D Printing Monitor'
 author: Ben Greenberg
-profile: './printing_monitor_profile.jpg'
-portfolio: https://bengreenberg.uk
+author_image: './printing_monitor_profile.jpg'
+portfolio_url: https://bengreenberg.uk
 description: '3D Machine Vision Monitoring System for Prosumer 3D Printers'
 featured_image: './printing_monitor_hero.jpg'
 tags: [3D Printing, Computer Vision, Automated Systems]
-repo: https://www.github.com/nebbles/masters
+project_repo_url: https://www.github.com/nebbles/masters
 ---
 
 <img style="width: 50%;" src="./printing_monitor_hero.jpg" />
