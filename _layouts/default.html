@@ -59,7 +59,8 @@
 	<!-- Extra Header JS Code -->
 	{{ site.data.settings.advanced_settings.header_js }}
 	{% endif %}
-	
+	<!-- Site Engine Optimisation SEO -->
+	{% seo %}
 </head>
 
 
@@ -92,12 +93,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="/js/board-min.js"></script>
 
+	{% include randomize.html %}
+
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
 	{{ site.data.settings.advanced_settings.footer_js }}
 	{% endif %}
-
-
 </body>
 
 </html>
