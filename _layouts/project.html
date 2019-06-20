@@ -19,12 +19,12 @@ layout: default
 			<a class="info-tag" id="repo" href="{{ page.repo }}">Project repository</a>
 		</div>
 		{% endif %}
-		<p>{{ page.subtitle }}</p>
 		<div class="tag-custom">
 			{% for tag in page.tags %}
 				<span>{{ tag }}</span>
 			{% endfor %}
 		</div>
+		<p>{{ page.description }}</p>
 	</div>
 
 </section>

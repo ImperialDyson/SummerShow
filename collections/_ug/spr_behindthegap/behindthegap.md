@@ -1,9 +1,7 @@
 ---
 title: 'Behind the Gap'
 author: Paolo Falco Rüegg
-subtitle: 'Using VR to reduce deaths on the railway'
-date: 2019-05-01 00:00:00
-description: 
+description: 'Using VR to reduce deaths on the railway'
 featured_image: './behindthegap_hero.jpg'
 tags: [Virtual Reality, Railway Safety, Perceptual Research]
 ---
