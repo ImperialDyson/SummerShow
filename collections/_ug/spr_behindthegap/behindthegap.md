@@ -4,6 +4,9 @@ author: Paolo Falco Rüegg
 description: 'Using VR to reduce deaths on the railway'
 featured_image: './behindthegap_hero.jpg'
 tags: [Virtual Reality, Railway Safety, Perceptual Research]
+author_image: './behindthegap_profile.jpg'
+portfolio_url: https://www.paolofalcoruegg.com/
+project_repo_url: https://github.com/pa17/spr
 ---
 
 ![](./behindthegap_hero.jpg)
