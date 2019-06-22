@@ -2,7 +2,7 @@
 [context.beta] # branch 'beta'
   base  = "2019/"
   command = "bundle exec jekyll build"
-  publish = "_site"
+  publish = "2019/_site"
 
 [context.2019] # branch '2019'
   base  = "2019/"
