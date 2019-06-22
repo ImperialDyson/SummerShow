@@ -14,3 +14,8 @@
   from = "https://imperialdyson.uk/*"
   to = "https://summershow.imperialdyson.uk/:splat"
   force = true # redirect applied regardless if if there's a file already existing
+
+[[redirects]]
+  from = "/*"
+  to = "/2019/:splat"
+  status = 301 # permanent redirect
