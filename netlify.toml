@@ -4,6 +4,12 @@
   publish = "_site"
   # TODO: set the base directory to 2019/
 
+# Specific branch context for beta building
+[context.2019] # 'beta' is the branch name
+  base  = "2019/"
+  command = "bundle exec jekyll build"
+  publish = "2019/_site"
+
 # Redirect from root domain to the summershow subdomain.
 [[redirects]]
   from = "https://imperialdyson.uk/*"
