@@ -1,11 +1,10 @@
-# Specific branch context for beta building
-[context.beta] # 'beta' is the branch name
-  command = "jekyll build"
+# Specific branch context for beta builds
+[context.beta] # branch 'beta'
+  base  = "2019/"
+  command = "bundle exec jekyll build"
   publish = "_site"
-  # TODO: set the base directory to 2019/
 
-# Specific branch context for beta building
-[context.2019] # 'beta' is the branch name
+[context.2019] # branch '2019'
   base  = "2019/"
   command = "bundle exec jekyll build"
   publish = "2019/_site"
