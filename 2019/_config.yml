@@ -1,5 +1,5 @@
 site: DSDE Summer Show
-destination: _site/2019
+destination: _site/
 
 collections_dir: collections
 collections:
