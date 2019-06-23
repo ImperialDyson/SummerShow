@@ -285,3 +285,17 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
     padding: 10px 10px;
     white-space: nowrap;
 }
+
+.acknowledgement {
+    margin-top: 15px;
+    font-size: 10pt;
+    color: $text-light-color;
+
+    a {
+        color: $text-light-color;
+    }
+
+    a:hover {
+        color: $accent-color;
+    }
+}

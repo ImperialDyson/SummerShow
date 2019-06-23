@@ -1,0 +1,27 @@
+<footer class="footer">
+
+	<div class="wrap">
+
+		<div class="footer__content">
+
+			<p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p>
+
+			<div class="footer__copyright">
+				<span>© {{ 'now' | date: "%Y" }} Dyson School of Design Engineering, Imperial College London</span>
+			</div>
+
+			<div class="acknowledgement">
+				<span>
+					<a href="https://github.com/ImperialDyson/SummerShow">Built and maintained</a> 
+					by <strong><a href="https://github.com/nebbles">Ben Greenberg</a></strong> 
+					and <strong><a href="https://www.paolofalcoruegg.com">Paolo Falco Rüegg</a></strong>
+				</span>
+			</div>
+
+			{% include socials.html %}
+
+		</div>
+
+	</div>
+
+</footer>

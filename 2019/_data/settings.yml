@@ -20,7 +20,7 @@ menu_settings:
       url: '/about'
 
 footer_settings:
-  footer_tagline: Summer Show 2019 | Dyson School of Design Engineering
+  footer_tagline: Summer Show 2019
 
 grid_settings:
   overlay_opacity: 0.8

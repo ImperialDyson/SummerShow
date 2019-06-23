@@ -36,14 +36,24 @@ This repository contains the code for the Summer Show website. The Summer Show i
 Assuming you have Ruby installed...
 
 ```bash
-$ gem install bundler jekyll
-$ bundle exec jekyll build
+/     $ cd 2019/
+/2019 $ gem install bundler jekyll
+/2019 $ bundle exec jekyll build
 ```
 
-This will build the site into the `_site/` directory. Alternatively,
+This will build the site into the `2019/_site/` directory. Alternatively, you can run a live server which will watch for file changes:
 
 ```bash
-$ bundle exec jekyll serve
+/2019 $ bundle exec jekyll serve
 ```
 
-to launch a live server.
+For fast development cycles, we recommend using serveo.net, so in a new shell:
+
+```bash
+$ ssh -R summershow.serveo.net:80:localhost:4000 serveo.net
+```
+
+- `-R` requests the target `serveo.net` to establish a reverse tunnel (acting as a proxy)
+- `summershow.serveo.net` acts as a proxy on port 80, and redirects to `localhost:4000`
+- You can request any subdomain from serveo. No guarantee you will be allocated it though.
+- Your local dev server will now be available from any device at http://summershow.serveo.net
