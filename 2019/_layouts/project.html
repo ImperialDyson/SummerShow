@@ -15,9 +15,13 @@ layout: default
 		</div>
 		<div class="author-info">
 			{% if page.author_image %}<div class="image-cropper"><img src="{{page.author_image}}"></div>{% endif %}
-			<p class="author">{% unless page.author_image %}By {% endunless %}{{ page.author }}</p>
-			{% if page.portfolio_url %}<a class="portfolio-link" href="{{ page.portfolio_url }}">Portfolio</a>{% endif %}
-			{% if page.project_repo_url %}<a class="portfolio-link" id="repo" href="{{ page.project_repo_url }}">Project Repository</a>{% endif %}
+			<div id="author-text">
+				<p id="author-name">{% unless page.author_image %}By {% endunless %}{{ page.author }}</p>
+				<div id="author-buttons">
+					{% if page.portfolio_url %}<a class="portfolio-link" href="{{ page.portfolio_url }}">Portfolio</a>{% endif %}
+					{% if page.project_repo_url %}<a class="portfolio-link" id="repo" href="{{ page.project_repo_url }}">Project Repository</a>{% endif %}
+				</div>
+			</div>
 		</div>
 		
 	</div>

@@ -168,19 +168,21 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 .author-info {
     display: flex;
+    // flex-wrap: wrap; // applied to .author-meta instead
     align-items: center;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .image-cropper {
+    flex-shrink:0;
     width: 60px;
     height: 60px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
     float: left;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .image-cropper img {
@@ -190,18 +192,30 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
     width: auto;
 }
 
-.author {
-    // font-style: italic;
-    font-weight: 500;
-    display: inline-block;
-    margin: 0 5px;
-    padding: 0;
+#author-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    #author-name {
+        // font-style: italic;
+        font-weight: 500;
+        display: inline-block;
+        // margin: 0 5px;
+        margin-right: 15px;
+        padding: 0;
+    }
+
+    #author-buttons {
+        display: inline-block;
+        flex-wrap: wrap;
+    }
 }
 
 .portfolio-link {
     height: 20px;
     // margin-right: 13px;
-    margin-left: 10px;
+    margin-right: 5px;
     padding: 0px 5px;
     // border: 1px solid #0077b5;
     border: 2px solid $text-medium-color;
