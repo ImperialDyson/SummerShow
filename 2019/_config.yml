@@ -6,16 +6,16 @@ collections_dir: collections
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /2019/:slug
   pg:
     output: true
-    permalink: /pg/:slug
+    # permalink: /pg/:slug
   research:
     output: true
-    permalink: /research/:slug
+    # permalink: /research/:slug
   ug:
     output: true
-    permalink: /ug/:slug
+    # permalink: /ug/:slug
 
 defaults:
   -
