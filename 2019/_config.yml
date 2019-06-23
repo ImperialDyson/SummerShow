@@ -1,6 +1,6 @@
 site: DSDE Summer Show
 destination: _site/2019/
-permalink: /2019/
+permalink: /2019/:collections/:slug
 
 collections_dir: collections
 collections:
