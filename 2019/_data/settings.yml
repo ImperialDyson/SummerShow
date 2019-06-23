@@ -1,23 +1,23 @@
 basic_settings:
   site_title: Summer Show 2019
-  favicon_image: /images/logo.png
+  favicon_image: images/logo.png
 
 header_settings:
-  logo_image: /images/logo.svg
+  logo_image: images/logo.svg
   logo_width: 50
 
 menu_settings:
   menu_items:
     - title: 'Home'
-      url: '/'
+      url: '/2019'
     - title: 'Undergraduate'
-      url: '/ug/'
+      url: 'ug/'
     - title: 'Postgraduate'
-      url: '/pg/'
+      url: 'pg/'
     - title: 'Research'
-      url: '/research/'
+      url: 'research/'
     - title: 'About'
-      url: '/about'
+      url: 'about'
 
 footer_settings:
   footer_tagline: Summer Show 2019

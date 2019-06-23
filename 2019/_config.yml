@@ -6,7 +6,7 @@ collections_dir: collections
 collections:
   pages:
     output: true
-    permalink: /2019/:slug
+    # permalink: /2019/:slug
   pg:
     output: true
     # permalink: /pg/:slug
