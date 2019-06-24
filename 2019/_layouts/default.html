@@ -17,7 +17,7 @@
 
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image }}">
-	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
+	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description }}">
 
 	<!-- Twitter Card -->
@@ -85,18 +85,22 @@
 
 	</div>
 
-
-	{% include footer.html %}
-
+	<!-- Footer will show as long as its not the root page -->
+	{% unless page.url == "/" %}{% include footer.html %}{% endunless %}
 
 	<!-- Javascript Assets -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="/js/board-min.js"></script>
-	<script src="/js/randomize.js"></script>
+	{% unless page.url == "/" %}<script src="/js/randomize.js"></script>{% endunless %}
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
 	{{ site.data.settings.advanced_settings.footer_js }}
+	{% endif %}
+
+	{% if page.url == "/" %}
+	<script language="javascript" type="text/javascript" src="js/p5/rotateGradient.js"></script>
+	<script language="javascript" type="text/javascript" src="js/p5/particle.js"></script>
 	{% endif %}
 </body>
 
