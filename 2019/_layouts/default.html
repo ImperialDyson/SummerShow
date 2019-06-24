@@ -91,9 +91,7 @@
 	<!-- Javascript Assets -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="/js/board-min.js"></script>
-
-	<!-- This should deactivate on the landing page -->
-	{% include randomize.html %}
+	{% unless page.url == "/" %}<script src="/js/randomize.js"></script>{% endunless %}
 
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
