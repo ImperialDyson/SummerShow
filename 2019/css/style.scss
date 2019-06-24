@@ -316,7 +316,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 
 .landing-logo { 
-    height: 100%;
+    height: 50%;
     width: 100%;
     text-align: center;
     position: absolute;
@@ -327,6 +327,6 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
     margin: 0 auto;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
