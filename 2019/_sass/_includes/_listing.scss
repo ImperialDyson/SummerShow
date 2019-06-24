@@ -63,6 +63,7 @@
 	padding: 17px 20px;
 	background: rgba($overlay-background-color, $overlay-opacity);
 
+	overflow-y: scroll;
 	opacity: 0;
 	visibility: hidden;
 	@include transition(all 0.3s ease-in-out);
