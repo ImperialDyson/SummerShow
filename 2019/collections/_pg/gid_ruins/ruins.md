@@ -6,6 +6,7 @@ featured_image: './ruins_hero.png'
 ---
 
 ![](./ruins_hero.png)
+
 ![](./ruins1.png)
 
 RUINS is a service platform connecting users with local designers, tailors, students
