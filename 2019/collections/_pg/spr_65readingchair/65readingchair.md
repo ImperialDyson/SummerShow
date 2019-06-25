@@ -5,7 +5,7 @@ author: Jeffrey Chow
 featured_image: './65readingchair_hero.png'
 ---
 
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="1">
 	<img src="65readingchair_hero.png">
 	<img src="65readingchair_one.png">
 	<img src="65readingchair_two.png">

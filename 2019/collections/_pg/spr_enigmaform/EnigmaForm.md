@@ -5,11 +5,13 @@ author: Qifan Zhao
 featured_image: './enig_hero.jpg'
 ---
 
-Inspired by British mathematician Alan Turing's machine "Enigma", I keep the features of that machine and make a editable chair. The front side is the dial plate matrix that you can rotate and pull/push to adjust the length of each stick. The other side is signal matrix which could be a reflection of your chair.
+<div class="gallery" data-columns="1">
+	<img src="enig_hero.png">
+	<img src="enig1.jpg">
+	<img src="enig2.jpg">
+  <img src="enig3.jpg">
+  <img src="enig4.jpg">
+  <img src="enig5.jpg">
+</div>
 
-![](./enig_hero.jpg)
-![](./enig1.jpg)
-![](./enig2.jpg)
-![](./enig3.jpg)
-![](./enig4 Zhao)
-![](./enig5.jpg)
+Inspired by British mathematician Alan Turing's machine "Enigma", I keep the features of that machine and make a editable chair. The front side is the dial plate matrix that you can rotate and pull/push to adjust the length of each stick. The other side is signal matrix which could be a reflection of your chair.
