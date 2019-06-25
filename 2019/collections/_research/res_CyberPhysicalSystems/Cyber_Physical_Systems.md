@@ -8,6 +8,7 @@ featured_image: 'cyber_hero.jpg'
 tags: []
 project_repo_url:
 ---
+![](./cyber_hero.jpg)
 
 The Cyber-Physical Systems (CPS) theme integrates computation with physical systems and processes combining sensing, actuation and control with networking, machine intelligence, and ultimately, people. Designing trustworthy and reliable CPS requires new ways to design systems embedding connected sensors and actuators that monitor and control their physical environments; intersecting numerous established research areas from microelectronics to control to Internet computing.
 

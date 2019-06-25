@@ -8,6 +8,8 @@ featured_image: 'audio_hero.jpg'
 tags: []
 project_repo_url:
 ---
+![](./audio_hero.jpg)
+
 
 The Audio Experience Design theme includes researchers and projects in areas related with both the physical and the perceptual natures of audio, with particular focus on sonic interaction and user experience. Currently, the main active research areas are:
 

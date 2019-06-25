@@ -8,6 +8,7 @@ featured_image: 'energytech_hero.jpg'
 tags: []
 project_repo_url:
 ---
+![](./energytech_hero.jpg)
 
 The Energy Technologies and Systems theme within the Dyson School of Design Engineering has a multi-disciplinary research focus on the generation, storage, transmission and usage of different energy vectors such as electrical and thermal. This work spans several length scales of interest from materials synthesis and characterisation, and device level performance modelling to whole system analysis and includes:
 

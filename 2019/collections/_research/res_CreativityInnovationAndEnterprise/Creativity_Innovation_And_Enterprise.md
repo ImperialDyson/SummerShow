@@ -8,6 +8,7 @@ featured_image: 'creativity_hero.jpg'
 tags: []
 project_repo_url:
 ---
+![](./creativity_hero.jpg)
 
 Addressing the global economic, social and environmental challenges requires  deploying innovation and creativity at all levels of the society to ensure effective solutions to systemic problems .
 

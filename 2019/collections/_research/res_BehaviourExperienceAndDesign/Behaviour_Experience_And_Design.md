@@ -9,6 +9,8 @@ tags: []
 project_repo_url:
 ---
 
+![](./behaviour_hero.jpg)
+
 Global challenges invariably require behavioural change, whether direct or indirect, in order to effect lasting solutions. Such challenges may be concerned with addressing health issues, furthering sustainability, or creating future digital economies. A deep understanding of people residing at the core of these problems is necessary to produce human-centred products, experiences, systems, services, decision-making procedures and design processes.
 
  Researchers in the Behaviour, Experience and Design theme seek to understand human motives, behaviour and decision-making processes when researching products, experiences, services and systems, utilising a human-centred approach.
