@@ -4,7 +4,7 @@ author:
 author_image: ''
 portfolio_url:
 description: ''
-featured_image: ''
+featured_image: 'energytech_hero.jpg'
 tags: []
 project_repo_url:
 ---
