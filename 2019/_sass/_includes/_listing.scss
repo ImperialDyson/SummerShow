@@ -19,6 +19,10 @@
 	float: left;
 	width: 50%;
 
+	@include mq(tabletp) {
+		width: 33.3%;
+	}
+
 	@include mq(tabletl) {
 		width: 25%;
 	}
