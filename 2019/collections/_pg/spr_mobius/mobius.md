@@ -5,7 +5,7 @@ author: Yuning Chan
 featured_image: './mobius_hero.jpg'
 ---
 
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
 	<img src="mobius_hero.jpg">
 	<img src="mobius1.jpg">
   <img src="mobius2.jpg">

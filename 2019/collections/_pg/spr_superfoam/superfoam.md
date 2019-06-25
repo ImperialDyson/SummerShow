@@ -5,7 +5,7 @@ author: Xiaofei Yang
 featured_image: './superfoam_hero.jpg'
 ---
 
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
 	<img src="superfoam_hero.jpg">
 	<img src="superfoam1.jpg">
 	<img src="superfoam2.jpg">

@@ -5,7 +5,7 @@ author: Siobhan Anderson
 featured_image: './swirl_hero.jpg'
 ---
 
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
 	<img src="swirl_hero.jpg">
 	<img src="swirl1.gif">
 	<img src="swirl2.gif">

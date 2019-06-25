@@ -5,7 +5,7 @@ author: Taisuke Ikawa
 featured_image: './polypore_hero.jpg'
 ---
 
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
 	<img src="polypore_hero.jpg">
 	<img src="polypore1.jpg">
 	<img src="polypore2.jpg">

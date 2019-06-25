@@ -5,7 +5,7 @@ author: Elijah KO
 featured_image: './trinity_hero.jpg'
 ---
 
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
 	<img src="trinity_hero.jpg">
 	<img src="trinity1.jpg">
 	<img src="trinity2.jpg">
