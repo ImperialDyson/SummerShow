@@ -1,6 +1,6 @@
 ---
-title: 'Improving Students' Learning Experience through A Human-Centered Development of Peer Assessment'
-description: 'Unequal distribution of work is one of the key causes of a negative learning experience for students working in groups. The existing WebPA system in Meng Design Engineering is prone to bias, subjectivity, and manipulation, making it unfair. This project aims to improve university students’ learning experience in group design work through designing a peer assessment (PA) system that focuses on learning as opposed to assessing. In testing, it was observed that students want to be able to share qualitative feedback with each other. The findings can contribute future developments of fair PA systems and the department’s pedagogy transformation.'
+title: "Improving Students' Learning Experience through A Human-Centered Development of Peer Assessment"
+description: "Unequal distribution of work is one of the key causes of a negative learning experience for students working in groups. The existing WebPA system in Meng Design Engineering is prone to bias, subjectivity, and manipulation, making it unfair. This project aims to improve university students’ learning experience in group design work through designing a peer assessment (PA) system that focuses on learning as opposed to assessing. In testing, it was observed that students want to be able to share qualitative feedback with each other. The findings can contribute future developments of fair PA systems and the department’s pedagogy transformation."
 author: Grace Chin
 author_image: './groupworkpa_project_profilepic.jpg'
 portfolio_url: https://gracechin.github.io/
