@@ -37,11 +37,8 @@ The proposed solution was to make the PA learning-focused as opposed to assessme
 The key features of the assessment are described below.
 
 * Formative assessment, as opposed to summative assessment, removes students’ direct ability to assign losses and gains, and in so doing reduces students’ temptation to be biased (Sqidharan & Boud, 2019) and  their reluctance to mark others down (Race, 2001).
-
 * Qualitative data collected from assessments provide students with a better understanding of how to improve (Collis et al, 2015). It was suggested that qualitative data could be used to justify the numerical assessment. However, since the numerical component does not provide additional constructive feedback, and may encourage students to view PA as simply a marking tool, the numerical component is excluded. 
-
 * Multiple evaluations during the group project allow instructors to intervene if necessary before the project ends. It also provides underperformers an opportunity to modify behaviour as necessary, allow learning progress to be recorded, and create the habit of self reflection. To avoid the discomfort of confrontation for the assessors, the peer feedback should remain anonymous.
-
 * Two-way dialogue between the assessor and assessee (as opposed to a one-way transfer of information) makes feedback more effective. It provides an opportunity for assessees to defend themselves if feedback is unjust, bias, or unclear, and allows for discussions on correcting possible misunderstandings.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q2CoDUWztOs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -80,9 +77,9 @@ There are various areas for future work. Though it was not part of the project s
 
 The project triggered new potential concepts and ideas for a better learning-focused concept. Prior to testing, the anonymity aspect of the feedback sharing was questioned by an interviewed module leader. Although confrontation can be difficult, feedback sharing can be seen as a learning experience in itself. It would be a valuable skill in the future if anonymous systems do not exist. The module leader explained his recent participation in a KAOSPILOT  teaching programme where he had a positive experience from an organised group feedback session. One-by-one team members were put on the “hot seat” and given feedback, which they were not allowed to respond to. Rules, which were blogged by an attendee of one programme from KAOSPILOT were established beforehand:  
 
-> “1. Feedback is always given to grow the other person. Always with good intent.
+> 1. Feedback is always given to grow the other person. Always with good intent.
 > 2. Feedback is concrete, based on observations, not on an opinion.
-> 3. Feedback is appreciative.”
+> 3. Feedback is appreciative.
 
 They were also asked to format their feedback with “You served the group well when you…” followed by “What I would like to see more of is…” as recalled by the module leader. 
 
