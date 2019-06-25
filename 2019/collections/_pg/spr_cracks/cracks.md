@@ -6,9 +6,9 @@ featured_image: './cracks_hero.jpg'
 ---
 
 <div class="gallery" data-columns="1">
-	<img src="craks_hero.png">
-	<img src="cracks1.png">
-	<img src="cracks2.png">
+	<img src="craks_hero.jpg">
+	<img src="cracks1.jpg">
+	<img src="cracks2.jpg">
 </div>
 
 In this chair, a material reflects the status change from softness to crispness, which exactly maps the interaction between people and the chair.
