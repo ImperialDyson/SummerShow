@@ -4,7 +4,7 @@ description: "Improving Students' Learning Experience through A Human-Centered D
 author: Grace Chin
 author_image: './groupworkpa_linkedin_profile_shot.png'
 portfolio_url: https://gracechin.github.io/
-featured_image: './groupworkpa_linkedin_profile_shot.png'
+featured_image: './groupworkpa_hero_image.png'
 tags: [students, group work, peer assessment]
 project_repo_url: https://www.github.com/gracechin
 ---
