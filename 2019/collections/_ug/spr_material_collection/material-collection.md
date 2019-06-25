@@ -1,11 +1,9 @@
 ---
 title: 'Innovative Material Collection in Marine Environment'
-author: Fan Mo
-profile: ',./mc_profile.JPG'
-portfolio: https://www.fanmo.co.uk
-subtitle: ''
-date: 2019-05-01 00:00:00
 description: 'An engineering design proposal for a passive device which filter and collect microplastics in marine environment.'
+author: Fan Mo
+author_image: './mc_profile.JPG'
+portfolio_url: https://www.fanmo.co.uk
 featured_image: './mc_hero.JPG'
 tags: [Sustainability, Engineering, Plastic Pollution]
 ---
