@@ -2,9 +2,7 @@
 title: 'RUINS'
 description: 'Refurbish. Don't replace.'
 author: Thea Peterson & Imran Ilyas
-featured_image: 'ruins_hero.png'
-tags: [Human Centred Design, Loneliness, Social Enterprise, Engineering]
-project_repo_url: https://www.github.com/
+featured_image: './ruins_hero.png'
 ---
 
 RUINS is a service platform connecting users with local designers, tailors, students
