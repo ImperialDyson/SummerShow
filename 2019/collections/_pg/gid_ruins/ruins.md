@@ -1,7 +1,7 @@
 ---
 title: 'RUINS'
 description: 'Refurbish. Don't replace.'
-author: Thea Peterson & Imran Ilyas
+author: Thea Peterson, Imran Ilyas
 featured_image: './ruins_hero.png'
 ---
 
