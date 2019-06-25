@@ -9,6 +9,8 @@ tags: []
 project_repo_url:
 ---
 
+![](./creativity_hero.jpg)
+
 Addressing the global economic, social and environmental challenges requires  deploying innovation and creativity at all levels of the society to ensure effective solutions to systemic problems.
 
 The Innovation, Creativity and Enterprise research theme  seeks to understand the structure and impact of creativity and innovation processes across different disciplines, organisations and sectors in order to design effective solutions to tackle complex problems.
