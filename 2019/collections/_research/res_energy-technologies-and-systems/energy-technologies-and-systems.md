@@ -17,3 +17,5 @@ The Energy Technologies and Systems theme within the Dyson School of Design Engi
 * Combined solar-thermal energy technologies
 * Gas turbine and turbomachinery technologies
 * Energy systems design
+
+![](./energy1.png)
