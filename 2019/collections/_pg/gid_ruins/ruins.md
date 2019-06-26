@@ -5,7 +5,7 @@ author: Thea Peterson, Imran Ilyas
 featured_image: './ruins_hero.png'
 ---
 
-![](./ruins_hero.png)
+![](./ruins_hero.png){:height="80%" width="80%"}
 
 ![](./ruins1.png)
 

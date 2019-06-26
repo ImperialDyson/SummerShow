@@ -6,7 +6,7 @@ featured_image: './enig_hero.jpg'
 ---
 
 <div class="gallery" data-columns="2">
-	<img src="enig_hero.png">
+	<img src="enig_hero.jpg">
 	<img src="enig1.jpg">
 	<img src="enig2.jpg">
   <img src="enig3.jpg">
