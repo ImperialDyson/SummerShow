@@ -9,7 +9,7 @@ portfolio_url: https://www.paolofalcoruegg.com/
 project_repo_url: https://github.com/pa17/spr
 ---
 
-![](./behindthegap_hero.jpg)
+<iframe src="https://player.vimeo.com/video/344584955" width="640" height="279" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 *Note: This is largely adapted from the project report that you can find [here](https://www.github.com/pa17/spr).*
 
@@ -42,14 +42,9 @@ I chose **Virtual Reality as a development framework** with which it was possibl
 
 ![](./behindthegap_hero.jpg)
 
-In total, I designed four audio-visual interventions including **directional audio and light illusions, as well as visual obstructions**. A study with a sample size of 20 was conducted, measuring the impression of train origin direction (Where do you think the train is coming from?) and the response time (When do you see the train?). Here are some gifs of the interventions, however, **please have a look at the project report to find out more**.
+In total, I designed four audio-visual interventions including **directional audio and light illusions, as well as visual obstructions**. A study with a sample size of 20 was conducted, measuring the impression of train origin direction (Where do you think the train is coming from?) and the response time (When do you see the train?). Below is a demo video for some of the interventions; please note that the directional audio will only work with headphones. **Have a look at the project report to find out more**.
 
-<div class="gallery" data-columns="2">
-	<img src="./behindthegap_10.gif" />
-	<img src="./behindthegap_11.gif" />
-	<img src="./behindthegap_12.gif" />
-	<img src="./behindthegap_13.gif" />
-</div>
+<iframe src="https://player.vimeo.com/video/344584955" width="640" height="279" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 The results laid **strong evidence that audio-visual interventions can significantly delay the localisation** of an approaching train. In summary:
 
