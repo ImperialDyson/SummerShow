@@ -1,11 +1,11 @@
 ---
 title: 'Audio Experience Design'
-author:
+author: 'Researchers: Rebecca Stewart, Lorezo Picinali, Sophie Skach, Rishi Shukla, Isaac Engel, Marco Comunità, Beck Heath, Sarab, Craig'
 author_image: ''
 portfolio_url:
 description: ''
 featured_image: 'audio_hero.jpg'
-tags: []
+tags: [Spatial Hearing, Binaural Audio, Wearable, Audiology, Hearing Devices]
 project_repo_url:
 ---
 ![](./audio_hero.jpg)
@@ -44,7 +44,7 @@ The implementation fuses a variety of digital signal processing techniques to de
 #### Isaac Engel (Audio Experience Design, Imperial College London)
 #### Lorenzo Picinali (Audio Experience Design, Imperial College London)
 
-Humans localise sounds by (unconciously) analysing tiny differences between the left and right ear signals, as well as directiondependent spectral information.
+Humans localise sounds by (unconsciously) analysing tiny differences between the left and right ear signals, as well as directiondependent spectral information.
 
 In Virtual Reality (VR), we can emulate such cues and effectively trick the brain into perceiving sounds at a given location, even if they are actually played through headphones.
 
@@ -77,4 +77,4 @@ The exhibit will showcase PlugSonic - a series of web and mobile apps designed t
 #### Sarab SURNAME (Audio Experience Design, Imperial College London)
 This exhibit will describe the audio research currently happening at the SAFE project in Borneo and what integrating the system to 3D might help.
 
-The exhibit will include an emersive VR forest soundscape with a headset for people to explore.
+The exhibit will include an immersive VR forest soundscape with a headset for people to explore.
