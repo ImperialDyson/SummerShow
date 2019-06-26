@@ -1,6 +1,6 @@
 ---
 title: 'Audio Experience Design'
-author: 'Researchers: Rebecca Stewart, Lorezo Picinali, Sophie Skach, Rishi Shukla, Isaac Engel, Marco Comunità, Beck Heath, Sarab, Craig'
+author: 'Researchers: Rebecca Stewart, Lorezo Picinali, Sophie Skach, Rishi Shukla, Isaac Engel, Marco Comunità, Beck Heath, Sarab Sethi, Craig Henry'
 author_image: ''
 portfolio_url:
 description: ''
@@ -30,6 +30,9 @@ This is accomplished by unobtrusively embedding textile pressure sensors around 
 
 These custom made pieces will be on display and visitors are invited to interact with them and explore the materiality - conductive fabrics linked with electronic components.
 
+
+
+
 ## Interactive 3D Audio Over Headphones for Mobile and Wearable Devices
 #### Rishi Shukla (Queen Mary University of London)
 #### Rebecca Stewart (Audio Experience Design, Imperial College London)
@@ -39,6 +42,9 @@ This system generates interactive 3D sound scenes using a microcomputer small en
 The device presents multiple sources in virtual surround sound locations over headphones using a method known as binaural synthesis. By incorporating realtime head-tracking, sound sources retain their virtual position in space relative to the listener’s head movement.
 
 The implementation fuses a variety of digital signal processing techniques to deliver highly portable and interactive spatial sound, which can potentially be used to power audio-based augmented experiences.
+
+
+
 
 ## 3D Sound Localisation in Virtual Reality
 #### Isaac Engel (Audio Experience Design, Imperial College London)
@@ -50,9 +56,12 @@ In Virtual Reality (VR), we can emulate such cues and effectively trick the brai
 
 In this exhibit, you can test and train your sound localisation skills in a VR game.
 
+
+
+
 ## The 3D Tune-In Toolkit
 #### Isaac Engel (Audio Experience Design, Imperial College London)
-#### Craig SURNAME (Audio Experience Design, Imperial College London)
+#### Craig Henry (Audio Experience Design, Imperial College London)
 
 ![](./audio_3d.png){:height="50%" width="50%"}
 
@@ -61,6 +70,9 @@ This exhibit showcases the 3D Tune-In Toolkit, which is an open source tool for 
 The Toolkit allows the design and rendering of highly realistic and immersive 3D audio, and the simulation of virtual hearing aid devices and of different typologies of hearing loss.
 
 Project link: http://www.3d-tune-in.eu/
+
+
+
 
 ## Plugsonic - 3D Soundscapes for Cultural Heritage
 #### Marco Comunità (Audio Experience Design, Imperial College London)
@@ -72,9 +84,12 @@ participation. To create engaging experiences, technologies like augmented reali
 
 The exhibit will showcase PlugSonic - a series of web and mobile apps designed to create and navigate 3D soundscapes.
 
+
+
+
 ## 3D Acoustics for Audio Monitoring of Rainforest Biodiversity
 #### Beck Heath (Audio Experience Design, Imperial College London)
-#### Sarab SURNAME (Audio Experience Design, Imperial College London)
+#### Sarab Sethi (Audio Experience Design, Imperial College London)
 This exhibit will describe the audio research currently happening at the SAFE project in Borneo and what integrating the system to 3D might help.
 
 The exhibit will include an immersive VR forest soundscape with a headset for people to explore.
