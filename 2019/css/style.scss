@@ -334,3 +334,36 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 .listing-item__content {
     overflow-y: auto;
 }
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search input {
+  width: auto;
+  height: 30px;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.search input { text-indent: 32px;}
+
+.search .fa-search { 
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.search-results {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-results a {
+    color: #ff4800;
+}
