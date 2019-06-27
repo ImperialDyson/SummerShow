@@ -36,7 +36,8 @@
 	position: relative;
 	display: block;
 
-	@include mq(tabletl) {
+	// @include mq(tabletl) {
+	@media only screen and (min-device-width: $break-tabletl) {
 
 		&:hover {
 
@@ -51,6 +52,7 @@
 			}
 		}
 	}
+	// }
 }
 
 .listing-item__image {
