@@ -77,9 +77,9 @@ There are various areas for future work. Though it was not part of the project s
 
 The project triggered new potential concepts and ideas for a better learning-focused concept. Prior to testing, the anonymity aspect of the feedback sharing was questioned by an interviewed module leader. Although confrontation can be difficult, feedback sharing can be seen as a learning experience in itself. It would be a valuable skill in the future if anonymous systems do not exist. The module leader explained his recent participation in a KAOSPILOT  teaching programme where he had a positive experience from an organised group feedback session. One-by-one team members were put on the “hot seat” and given feedback, which they were not allowed to respond to. Rules, which were blogged by an attendee of one programme from KAOSPILOT were established beforehand:  
 
-> 1. Feedback is always given to grow the other person. Always with good intent.
-> 2. Feedback is concrete, based on observations, not on an opinion.
-> 3. Feedback is appreciative.
+> (1) Feedback is always given to grow the other person. Always with good intent.  
+> (2) Feedback is concrete, based on observations, not on an opinion.  
+> (3) Feedback is appreciative.
 
 They were also asked to format their feedback with “You served the group well when you…” followed by “What I would like to see more of is…” as recalled by the module leader. 
 
