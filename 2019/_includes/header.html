@@ -3,15 +3,15 @@
 	<div class="wrap">
 
 		{% unless page.header_disabled %}
-			{% if site.data.settings.header_settings.logo_image %}
-			<a href="/" class="header__logo">
-				<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
-			</a>
-			{% else %}
-			<a href="/" class="header__title">
-				{{ site.data.settings.basic_settings.site_title }}
-			</a>
-			{% endif %}
+		{% if site.data.settings.header_settings.logo_image %}
+		<a href="/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
+		</a>
+		{% else %}
+		<a href="/" class="header__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
 		{% endunless %}
 
 
@@ -31,15 +31,18 @@
 					{% endfor %}
 
 					<li class="menu__list__item">
-						<div class="search">
-								<span class="fa fa-search"></span>
-								<input id="search-input">
-						</div>	
+						<div class="search"
+							onmousedown="document.getElementById('result-container').style.height = '200px'; 
+										 document.getElementById('search-input').style.width = '170px';
+										 document.getElementById('looking_glass').style.width = '0px'">
+							<span id="looking_glass" class="fa fa-search"></span>
+							<input id="search-input">
+						</div>
 					</li>
+
 				</ul>
 			</div>
 		</div>
-
 	</div>
 
 </header>

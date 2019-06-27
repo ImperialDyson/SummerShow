@@ -338,30 +338,52 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 .search {
-  position: relative;
-  color: #aaa;
-  font-size: 16px;
+    margin-top: 10px;
+    @include mq(tabletp) {
+        margin-top: 0px;
+    }
+
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
 }
 
 .search input {
-  width: auto;
-  height: 30px;
-  border: 1px solid #aaa;
-  border-radius: 15px;
-  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+    
+    width: 30px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+    transition: width 0.5s ease-in-out;
+
 }
 
-.search input { text-indent: 32px;}
+.search input { text-indent: 15px;}
 
 .search .fa-search { 
-  position: absolute;
-  top: 8px;
-  left: 8px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
 }
 
 .search-results {
-    margin-left: 10px;
-    margin-right: 10px;
+    position: fixed;
+    top: 18.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 0px;
+    background-color: transparent;
+
+    @include mq(tabletp) {
+        position: static;
+        top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-height: 25px;
+        transition: height 1s linear;
+        overflow: hidden;
+    }
 }
 
 .search-results a {
