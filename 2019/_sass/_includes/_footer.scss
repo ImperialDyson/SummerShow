@@ -31,15 +31,11 @@
 
 .footer__primary {
 	margin-bottom: 30px;
-	margin-right: 30px;
+	margin-right: 60px;
 }
 
 .footer__secondary {
 	max-width: ($break-tabletp - ($screen-edge-spacing * 2) - ($grid-spacing * 2)) / 2;
-	
-	@include mq(tabletp) {
-		margin-left: 30px;
-	}
 	
 	img {
 		max-width: 100%;
@@ -87,7 +83,10 @@
 	
 	@include mq(tabletp) {
 		height: 40px;
-		float: right;
+	}
+	
+	text-align: center;
+	@include mq(tabletp) {
 	}
 
 	// @include mq(laptop) {
