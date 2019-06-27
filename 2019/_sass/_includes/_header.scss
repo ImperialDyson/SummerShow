@@ -15,11 +15,16 @@
 	padding-right: 0;
 
 	.wrap {
+		display: flex;
 		max-width: 100%;
 
 		@include mq(tabletp) {
 			padding: 0 $screen-edge-spacing;
 		}
+	}
+
+	.wrap div:last-child {
+		margin-left: auto;
 	}
 }
 
@@ -37,6 +42,34 @@
 .header__logo__img {
 	width: 100%;
 	height: auto;
+}
+
+.header__text {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 0 20px;
+	max-width: 80%;
+
+	span {
+		position: relative;
+		display: inline-block;
+		font-weight: $menu-weight;
+	}
+
+	#title {
+		margin-bottom: 4px;
+	}
+
+	#subtitle {
+		color: $text-light-color;
+	}
+
+	font-size: 10pt;
+	@include mq(tabletl) {
+		font-size: 12pt;
+	}
 }
 
 .header__title {
@@ -66,11 +99,12 @@
 .menu {
 	
 	@include mq(tabletp) {
-		position: absolute;
+		// position: absolute;
 		// top: 50%;
-		margin-top: 35px;
+		// margin-top: 15px;
+		margin: auto 0;
 		right: $screen-edge-spacing;
-		@include translate(0,-50%);
+		// @include translate(0,-50%);
 	}
 }
 
@@ -150,6 +184,7 @@
 	left: 0;
 	background: rgba($overlay-background-color,0.95);
 	overflow: auto;
+	white-space: nowrap; // prevents menu items from wrapping to new line
 
 	visibility: hidden;
 	opacity: 0;

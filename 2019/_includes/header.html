@@ -4,9 +4,18 @@
 
 		{% unless page.header_disabled %}
 		{% if site.data.settings.header_settings.logo_image %}
+		
+		
 		<a href="/" class="header__logo">
 			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
 		</a>
+		
+		<div class="header__text">	
+			<span id="title">{{ site.data.settings.header_settings.text_title }}</span>
+			<span id="subtitle">{{ site.data.settings.header_settings.text_subtitle }}</span>
+		</div>
+
+
 		{% else %}
 		<a href="/" class="header__title">
 			{{ site.data.settings.basic_settings.site_title }}
