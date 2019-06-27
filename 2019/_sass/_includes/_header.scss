@@ -9,13 +9,16 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
 
 .header {
-	padding: 20px 0;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 0;
+	padding-right: 0;
 
 	.wrap {
 		max-width: 100%;
 
 		@include mq(tabletp) {
-			padding: 0 20px;
+			padding: 0 $screen-edge-spacing;
 		}
 	}
 }
@@ -64,8 +67,9 @@
 	
 	@include mq(tabletp) {
 		position: absolute;
-		top: 50%;
-		right: 22px;
+		// top: 50%;
+		margin-top: 35px;
+		right: $screen-edge-spacing;
 		@include translate(0,-50%);
 	}
 }
@@ -179,6 +183,8 @@
 }
 
 .menu__list__item {
+
+	letter-spacing: $menu-spacing;
 
 	@include mq(tabletp) {
 		display: inline-block;

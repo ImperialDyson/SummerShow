@@ -16,7 +16,7 @@
 		max-width: 100%;
 
 		@include mq(tabletp) {
-			padding: 0 20px;
+			padding: 0 $screen-edge-spacing;
 		}
 	}
 }
