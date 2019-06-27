@@ -21,6 +21,7 @@ menu_settings:
 
 footer_settings:
   footer_tagline: Summer Show 2019
+  logo_banner: '/images/logo_banner_website.png'
 
 grid_settings:
   overlay_opacity: 0.8
