@@ -100,12 +100,12 @@
 		margin: 20px auto;
 
 		@include mq(tabletp) {
-			max-width: 83%;
+			max-width: 70%;
 			margin: 30px auto;
 		}
 
 		@include mq(laptop) {
-			max-width: 75%;
+			max-width: 65%;
 			margin: 40px auto;
 		}
 	}
@@ -223,13 +223,13 @@
 	margin: 20px auto;
 
 	@include mq(tabletp) {
-		margin: 30px auto;
-		max-width: 83%;
+		margin: 50px auto;
+		max-width: 70%;
 	}
 
 	@include mq(laptop) {
-		margin: 40px auto;
-		max-width: 75%;
+		margin: 70px auto;
+		max-width: 65%;
 	}
 
 	&:first-child {
