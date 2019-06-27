@@ -30,6 +30,7 @@
 					</li>
 					{% endfor %}
 
+					{% unless page.url == "/" %}
 					<li class="menu__list__item">
 						<div class="search"
 							onmousedown="document.getElementById('result-container').style.height = '200px'; 
@@ -39,6 +40,7 @@
 							<input id="search-input">
 						</div>
 					</li>
+					{% endunless %}
 
 				</ul>
 			</div>
