@@ -24,6 +24,26 @@
 .footer__content {
 	border-top: 2px solid $background-alt-color;
 	padding: 20px 0 24px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer__primary {
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
+
+.footer__secondary {
+	max-width: ($break-tabletp - ($screen-edge-spacing * 2) - ($grid-spacing * 2)) / 2;
+	
+	@include mq(tabletp) {
+		margin-left: 30px;
+	}
+	
+	img {
+		max-width: 100%;
+	}
 }
 
 .footer__text {
@@ -64,15 +84,17 @@
 	margin-top: 20px;
 	height: 30px;
 
+	
 	@include mq(tabletp) {
 		height: 40px;
+		float: right;
 	}
 
-	@include mq(laptop) {
-		position: absolute;
-		top: 50%;
-		right: $grid-spacing;
-		margin-top: 0;
-		@include translate(0,-50%);
-	}
+	// @include mq(laptop) {
+	// 	position: absolute;
+	// 	top: 50%;
+	// 	right: $grid-spacing;
+	// 	margin-top: 0;
+	// 	@include translate(0,-50%);
+	// }
 }
