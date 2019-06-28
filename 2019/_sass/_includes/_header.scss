@@ -208,9 +208,10 @@
 .menu__list {
 	list-style: none;
 	margin: 0 auto;
-	padding: 20px $grid-spacing;
-
+	padding: 80px 20px;
+	
 	@include mq(tabletp) {
+		padding: 20px $grid-spacing;
 		max-width: none;
 		margin: 0;
 		padding: 0;
