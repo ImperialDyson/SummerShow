@@ -9,7 +9,7 @@ tags: [Human Centred Design, Loneliness, Social Enterprise, Engineering]
 project_repo_url: https://www.github.com/
 ---
 
-![](growt_hero.png)
+![](grow_hero.png)
 
 
 Loneliness is a significant problem in the UK, with nearly a third of people feeling lonely often. Young people and elderly are especially affected. Grow Together is an indoor gardening programme aiming to bring urban communities together and teach new skills as a way of increasing resilience to loneliness.
