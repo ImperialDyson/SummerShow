@@ -322,6 +322,7 @@ $screen-edge-spacing: 40px;
     padding-right: 20px;
     height: 0px;
     background-color: transparent;
+    white-space: normal;
 
     @include mq(tabletp) {
         position: static;
@@ -334,6 +335,14 @@ $screen-edge-spacing: 40px;
     }
 
     a {
-        color: #ff4800;
+        color: $accent-color;
+        display: block;
+        @include mq(tabletp) {
+            display: inline;
+        }
+
+        &:hover {
+            color: $text-dark-color;
+        }
     }
 }
