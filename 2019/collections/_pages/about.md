@@ -1,13 +1,13 @@
 ---
 title: The Show
-subtitle: The SummerShow is an occasion to interact with an amazingly diverse range of innovations; from robots and 4D printing through to conscious fashion and behaviour changing rituals. 
+subtitle: The Summer Show is an occasion to interact with an amazingly diverse range of innovations from robots and 4D printing through to conscious fashion and behaviour changing rituals. 
 description: 
 featured_image: /images/about/about_hero.jpg
 ---
 
 ![](/images/about/about_hero.jpg)
 
-The Dyson School of Design Engineering is housed in the newly refurbished Edwardian Baroque former South Kensington Post Office. Exhibitions of cutting edge innovation will include projects from our graduating MEng students, those from the double masters with the RCA in Global Innovation Design and Innovation Design Engineering. We will also be showcasing design engineering research. 
+The Dyson School of Design Engineering is housed in the newly refurbished Edwardian Baroque former South Kensington Post Office. Exhibitions of cutting edge innovation will include projects from our graduating MEng students, and those from Global Innovation Design and Innovation Design Engineering (both double Master's programs in collaboration with the RCA). We will also be showcasing design engineering research. 
 
 ## Schedule
 
@@ -31,4 +31,4 @@ Innovation Design Engineering (IDE) is a unique double Master’s Programme that
 ### MEng Design Engineering at the Dyson School
 
 Design engineers are problem solvers who bridge the gap between traditional engineering and design. It's a discipline which draws on knowledge of manufacturing techniques, product development, technical design and rapid prototyping to bring new innovations to market. It also focuses on improving existing products and the processes used for making them.
-This course, run within the Dyson school at Imperial College London, aims to develop a range of fundamental design and engineering skills, with a particular emphasis on creativity, computer-aided engineering tools, optimisation, human factors, design process, and the enterprise skills and industrial experience necessary to launch brand new products to market.
+This course, run within the Dyson School at Imperial College London, aims to develop a range of fundamental design and engineering skills, with a particular emphasis on creativity, computer-aided engineering tools, optimisation, human factors, design process, and the enterprise skills and industrial experience necessary to launch brand new products to market.
