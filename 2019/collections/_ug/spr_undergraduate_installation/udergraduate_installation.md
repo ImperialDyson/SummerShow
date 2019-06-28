@@ -2,7 +2,7 @@
 title: 'Design Engineering Student Installation'
 description: 'A dynamic installation that undergraduate students contribute to, embodying their community in an attempt to better support them in their sometimes discomfiting studies.'
 author: Ian Ross Kegler
-author_image: './uginstallation_hero.png'
+author_image: './Ian.png'
 portfolio_url: https://www.irkde.com/
 featured_image: './uginstallation_hero.png'
 tags: [Installation, Design Engineering, Student Community]
