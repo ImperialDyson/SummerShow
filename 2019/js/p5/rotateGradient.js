@@ -14,10 +14,22 @@ function setup() {
     canvas.style('left', '0');
     canvas.style('z-index', '-1');
 
+    mobile = isMobileDevice();
+
     frameRate(24);
 
     axis = createVector(windowWidth / 2, windowHeight / 2, 1);
 }
+
+function windowResized() {
+    if (mobile == false) {
+        resizeCanvas(windowWidth, windowHeight);
+    }
+}
+
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
 
 function draw() {
     angle += angleInc;
