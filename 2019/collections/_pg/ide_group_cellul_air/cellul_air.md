@@ -1,9 +1,10 @@
 ---
 title: 'CELLUL-AIR'
 portfolio_url: https://www.cellul-air.com/
-description: 'Decentralise, distribute, reposition'
+description: 'The future of clean air powered by microbes'
 author: Alex Facey, Kate Strudwick, Nicole Stjernswärd, Timi Oyedeji
 featured_image: './cellul_air_hero.jpg'
+tags: [Air Pollution, Bioremediation]
 ---
 
 ![](./cellul_air1.jpg)
