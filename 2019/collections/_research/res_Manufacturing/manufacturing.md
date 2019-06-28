@@ -1,11 +1,11 @@
 ---
 title: 'Manufacturing'
 author:
-author_image: ''
-portfolio_url:
+author_image: 'Researchers: Shiya Li, Mohanad Bahshwan, Livia Kalossaka, Jiwoo Choi, Usman Waheed, Borut Lampret'
+portfolio_url: https://www.imperial.ac.uk/people/connor.myant/research.html
 description: ''
 featured_image: 'manufacturing_hero.jpg'
-tags: []
+tags: [Additive Manufacturing, Tribology, Smart Materials, Bio-printing]
 project_repo_url:
 ---
 ![](./manufacturing_hero.jpg)
@@ -45,4 +45,4 @@ The use of Shape Memory Polymers with Additive Manufacturing has become known as
 ## Development of a novel intra-stereolithography Bio-Printing process
 #### Borut Lampret
 
-Current Bio-Printing methodologies are limited to the creation of cell cultures and scaffolds that allow cellular material to grow within them to create tissue-like structures. These simple materials lack sophistication, are non-functionalised and are reliant on the scaffold to determine mechanical properties. In comparison, biological materials such as cartilage, are functionalised hierarchical structures with graded mechanical properties tuned to a specific task. As yet, 3D printing has not been able to match nature's ability to create such structures. This project aims to develop a novel 3D printing method, that combines synthetic biology and opto-genetics to stimulate cell activity using external inputs. Focus is on developing the advanced optical methods needed to control the light signals (wavelength and intensity) at precise locations within the 3D matrix. Illuminating a precise spot within a gel matrix presents several challenges, including (but not limited too) diffraction and dispersion of the illuminating beam, as well as achieving the required intensity without causing deleterious effects on the surrounding matrix material. A successful outcome is a system that can 3D print an object of a desired design repeatedly with high accuracy. 
+Current Bio-Printing methodologies are limited to the creation of cell cultures and scaffolds that allow cellular material to grow within them to create tissue-like structures. These simple materials lack sophistication, are non-functionalised and are reliant on the scaffold to determine mechanical properties. In comparison, biological materials such as cartilage, are functionalised hierarchical structures with graded mechanical properties tuned to a specific task. As yet, 3D printing has not been able to match nature's ability to create such structures. This project aims to develop a novel 3D printing method, that combines synthetic biology and opto-genetics to stimulate cell activity using external inputs. Focus is on developing the advanced optical methods needed to control the light signals (wavelength and intensity) at precise locations within the 3D matrix. Illuminating a precise spot within a gel matrix presents several challenges, including (but not limited too) diffraction and dispersion of the illuminating beam, as well as achieving the required intensity without causing deleterious effects on the surrounding matrix material. A successful outcome is a system that can 3D print an object of a desired design repeatedly with high accuracy.
