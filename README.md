@@ -44,7 +44,7 @@ Assuming you have Ruby installed...
 This will build the site into the `2019/_site/` directory. Alternatively, you can run a live server which will watch for file changes:
 
 ```bash
-/2019 $ bundle exec jekyll serve
+/2019 $ bundle exec jekyll serve --host 0.0.0.0
 ```
 
 For fast development cycles, we recommend using serveo.net, so in a new shell:
@@ -57,3 +57,9 @@ $ ssh -R summershow.serveo.net:80:localhost:4000 serveo.net
 - `summershow.serveo.net` acts as a proxy on port 80, and redirects to `localhost:4000`
 - You can request any subdomain from serveo. No guarantee you will be allocated it though.
 - Your local dev server will now be available from any device at http://summershow.serveo.net
+
+Alternatively, you can use your local IP (e.g. `192.168.1.2`) if the devices are on the same network.
+
+```
+http://192.168.1.2:4000
+```
