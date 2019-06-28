@@ -44,7 +44,8 @@
 		font-size: 22px;
 	}
 
-	@include mq(laptop) {
+	// @include mq(laptop) {
+	@media only screen and (min-device-width: $break-laptop) {
 		$dim: 40px;
 		width: $dim;
 		height: $dim;
