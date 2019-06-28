@@ -4,7 +4,7 @@ description: 'Indoor Gardening Programme to Combat Loneliness.'
 author: Karolina Jankiewicz
 author_image: 'project_profilepic.png'
 portfolio_url: https://kajotko.github.io/
-featured_image: 'project_hero.png'
+featured_image: 'grow_hero.png'
 tags: [Human Centred Design, Loneliness, Social Enterprise, Engineering]
 project_repo_url: https://www.github.com/
 ---
