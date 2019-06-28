@@ -3,7 +3,7 @@ title: 'Cavamo'
 portfolio_url:
 description: 'Stress management for equestrian training by measuring spontaneous blink rate.'
 author: Esmeralda Tuomi
-featured_image: './cavamo_hero.jpg'
+featured_image: './cavamo_hero.png'
 tags: [Stress Sensor, Racing]
 
 ---
