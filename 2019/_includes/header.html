@@ -40,12 +40,9 @@
 					{% endfor %}
 
 					{% unless page.url == "/" %}
-					<li class="menu__list__item">
-						<div class="search"
-							onmousedown="document.getElementById('result-container').style.height = '200px'; 
-										 document.getElementById('search-input').style.width = '170px';
-										 document.getElementById('looking_glass').style.width = '0px'">
-							<span id="looking_glass" class="fa fa-search"></span>
+					<li class="menu__list__item" id="menu__search">
+						<div class="search">
+							<span id="looking-glass" class="fa fa-search"></span>
 							<input id="search-input">
 						</div>
 					</li>
