@@ -1,7 +1,7 @@
 ---
 title: 'Manufacturing'
-author:
-author_image: 'Researchers: Shiya Li, Mohanad Bahshwan, Livia Kalossaka, Jiwoo Choi, Usman Waheed, Borut Lampret'
+author: 'Researchers: Shiya Li, Mohanad Bahshwan, Livia Kalossaka, Jiwoo Choi, Usman Waheed, Borut Lampret'
+author_image: ''
 portfolio_url: https://www.imperial.ac.uk/people/connor.myant/research.html
 description: ''
 featured_image: 'manufacturing_hero.jpg'
