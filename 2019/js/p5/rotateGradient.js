@@ -31,6 +31,12 @@ function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 };
 
+function touchMoved(event) {
+    // console.log("touch move detected");
+    // resizeCanvas(windowWidth, windowHeight);
+    return false; // return false to block page scrolling
+}
+
 function draw() {
     angle += angleInc;
 
