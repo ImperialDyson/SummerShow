@@ -2,7 +2,7 @@
 title: 'Design Engineering Student Installation'
 description: 'A dynamic installation that undergraduate students contribute to, embodying their community in an attempt to better support them in their sometimes discomfiting studies.'
 author: Ian Ross Kegler
-author_image: './project_profilepic.png'
+author_image: './uginstallation_hero.png'
 portfolio_url: https://www.irkde.com/
 featured_image: './project_hero.png'
 tags: [Installation, Design Engineering, Student Community]
@@ -29,6 +29,6 @@ In order to better support the students, it was decided to embody their communit
 
 ## Workshop Induction
 
-The developed design required each student to make an element and add it to the installation for the four years they were on the course. In order to avoid requiring them to make their piece in their own time, it was incorporated into existing workshop inductions each new student is required to undertake. 
+The developed design required each student to make an element and add it to the installation for the four years they were on the course. In order to avoid requiring them to make their piece in their own time, it was incorporated into existing workshop inductions each new student is required to undertake.
 
 ![](./inductionstoryboard.png)
