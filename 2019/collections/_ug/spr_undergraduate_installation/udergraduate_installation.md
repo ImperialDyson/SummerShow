@@ -4,12 +4,12 @@ description: 'A dynamic installation that undergraduate students contribute to, 
 author: Ian Ross Kegler
 author_image: './uginstallation_hero.png'
 portfolio_url: https://www.irkde.com/
-featured_image: './project_hero.png'
+featured_image: './uginstallation_hero.png'
 tags: [Installation, Design Engineering, Student Community]
 project_repo_url: https://www.github.com/
 ---
 
-![](./project_hero.png)
+![](./uginstallation_hero.png)
 
 ## Context
 
