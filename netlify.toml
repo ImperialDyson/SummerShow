@@ -1,10 +1,10 @@
 # Specific branch context for beta builds
-[context.beta] # branch 'beta'
+[context."beta"] # branch 'beta'
   base  = "2019/"
   command = "bundle exec jekyll build"
   publish = "2019/_site"
 
-[context.2019] # branch '2019'
+[context."2019"] # branch '2019'
   base  = "2019/"
   command = "bundle exec jekyll build"
   publish = "2019/_site"
