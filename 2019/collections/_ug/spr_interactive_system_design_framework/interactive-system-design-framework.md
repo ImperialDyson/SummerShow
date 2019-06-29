@@ -1,14 +1,15 @@
 ---
-title: 'A proposed framework for designing interactive systems through the use of aesthetic experience'
+title: 'Interactive System Design Framework'
+description: 'A proposed framework for designing interactive systems through the use of aesthetic experience.'
 author: 'Carla Urbano'
-author_image: ''
-portfolio_url:
-featured_image: './URBANOVALERO_Carla.png'
+# author_image: ''
+# portfolio_url:
+featured_image: './interactive-system-design-framework-hero.png'
 tags: [Light, furniture, sleeping well, alarm clock, aesthetic experience, aesthetic interaction]
-
+# project_repo_url: 
 ---
 
-![](./URBANOVALERO_Carla.png)
+![](./interactive-system-design-framework-hero.png)
 
 The project proposes a new design process that uses full aesthetic experience as the main design driver. A full aesthetic experience involves all senses and not just visual. The method aims to address the changes that the design field is undergoing due to the development of new, more interactive and adaptive systems due to technology incorporation.
 

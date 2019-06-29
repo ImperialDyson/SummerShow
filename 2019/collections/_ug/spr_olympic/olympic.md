@@ -1,6 +1,6 @@
 ---
 title: 'OLYMPIC'
-description: 'a Modular Prosthetic Hand with Novel Finger and Wrist Coupling Mechanisms.'
+description: 'A modular prosthetic hand with novel finger and wrist coupling mechanisms.'
 author: 'Lois Liow'
 author_image: './Lois.png'
 portfolio_url: https://loisliow.myportfolio.com/
