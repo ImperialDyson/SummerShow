@@ -1,0 +1,69 @@
+site: DSDE Summer Show
+
+collections_dir: collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  pg:
+    output: true
+    permalink: /pg/:slug
+  research:
+    output: true
+    permalink: /research/:slug
+  ug:
+    output: true
+    permalink: /ug/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "ug"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "pg"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+grid_alignments:
+  - top
+  - center
+  - bottom

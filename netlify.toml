@@ -1,3 +1,19 @@
+[build]
+  base  = "2019/"
+  command = "bundle exec jekyll build"
+  publish = "2019/_site"
+
+# Specific branch context for beta builds
+[context."beta"] # branch 'beta'
+  base  = "2019/"
+  command = "bundle exec jekyll build"
+  publish = "2019/_site"
+
+[context."2019"] # branch '2019'
+  base  = "2019/"
+  command = "bundle exec jekyll build"
+  publish = "2019/_site"
+
 # Redirect from root domain to the summershow subdomain.
 [[redirects]]
   from = "https://imperialdyson.uk/*"
@@ -5,13 +21,6 @@
   force = true # redirect applied regardless if if there's a file already existing
 
 #[[redirects]]
-#  from = "/2019/*"
-#  to = "https://2019--summershow-dsde.netlify.com/:splat"
-#
-#  # The default HTTP status code is 301, but you can define a different one.
-#  status = 200
-#
-#  # By default, redirects won't be applied if there's a file with the same 
-#  # path as the one defined in the `from` property. Setting `force` to `true` 
-#  # will make the redirect rule take precedence over any existing files.
-#  force = true
+#  from = "/*"
+#  to = "/2019/:splat"
+#  status = 301 # permanent redirect

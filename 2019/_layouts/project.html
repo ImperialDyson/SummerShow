@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p class="subtitle">{{ page.description }}</p>
+		<div class="tag-custom">
+			{% for tag in page.tags %}
+			<span>{{ tag }}</span>
+			{% endfor %}
+		</div>
+		<div class="author-info">
+			{% if page.author_image %}<div class="image-cropper"><img src="{{page.author_image}}"></div>{% endif %}
+			<div id="author-text">
+				<p id="author-name">{% unless page.author_image %}By {% endunless %}{{ page.author }}</p>
+				<div id="author-buttons">
+					{% if page.portfolio_url %}<a class="portfolio-link" href="{{ page.portfolio_url }}">Portfolio</a>{% endif %}
+					{% if page.project_repo_url %}<a class="repo-link" id="repo" href="{{ page.project_repo_url }}">Project Repository</a>{% endif %}
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+</section>
+
+<section class="single">
+
+	{{ page.content }}
+
+</section>

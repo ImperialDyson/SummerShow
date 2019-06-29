@@ -1,0 +1,187 @@
+basic_settings:
+  site_title: Summer Show 2019
+  favicon_image: /images/logo.png
+
+header_settings:
+  logo_image: /images/logo.svg
+  logo_width: 50
+  text_title: Summer Show 2019
+  text_subtitle: Dyson School of Design Engineering
+
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Undergraduate'
+      url: '/ug/'
+    - title: 'Postgraduate'
+      url: '/pg/'
+    - title: 'Research'
+      url: '/research/'
+    - title: 'About'
+      url: '/about'
+
+footer_settings:
+  footer_tagline: Summer Show 2019
+  logo_banner: '/images/logo_banner_website.png'
+
+grid_settings:
+  overlay_opacity: 0.8
+  grid_spacing: 10
+  content_alignment: top
+
+contact_settings:
+  form_action: 'https://formspree.io/your@email.com'
+  confirmation_url: '/thanks'
+  email_subject: 'Contact form submission'
+  send_button_text: 'Send Message'
+
+social_settings:
+  facebook_url: 'https://www.facebook.com/events/366845300611356/'
+  twitter_url: 'https://twitter.com/ImperialDyson'
+  instagram_url: 'https://www.instagram.com/imperialdyson/'
+  snapchat_url: ''
+  youtube_url: 'https://www.youtube.com/channel/UCt3yDcU1N5STi0Iy_U4-oIA'
+  google-plus_url: ''
+  vimeo_url: ''
+  pinterest_url: ''
+  medium_url: ''
+  quora_url: ''
+  amazon_url: ''
+  apple_url: ''
+  android_url: ''
+  tumblr_url: ''
+  dribbble_url: ''
+  behance_url: ''
+  deviantart_url: ''
+  github_url: ''
+  reddit_url: ''
+  flickr_url: ''
+  etsy_url: ''
+  kickstarter_url: ''
+  soundcloud_url: ''
+  spotify_url: ''
+  bandcamp_url: ''
+  linkedin_url: 'https://www.linkedin.com/company/imperialdyson/about/'
+
+color_settings:
+  background_color: '#ffffff'
+  background_alt_color: '#f4f5f6'
+  # text_dark_color: '#2A2F36'
+  text_dark_color: '#1d2025'
+  # text_medium_color: '#6C7A89'
+  # text_medium_color: '#4b545e'
+  text_medium_color: '#3b4147'
+  text_light_color: '#ABB7B7'
+  accent_color: '#ff4800'
+  border_color: '#dddddd'
+  overlay_background_color: '#e4f8fb'
+  overlay_text_color: 'black'
+  overlay_accent_color: '#2A2F36'
+  error_color: '#D64541'
+
+font_settings:
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,500,700,900&display=swap" rel="stylesheet">'
+  title_font: 'Roboto Condensed, sans-serif'
+  body_font: 'Roboto, sans-serif'
+  regular_weight: 400
+  bold_weight: 500
+  site_title:
+    small_size: 22
+    medium_size: 26
+    large_size: 30
+    weight: 500
+    letter_spacing: 0
+  menu:
+    small_size: 30
+    medium_size: 14
+    large_size: 15
+    weight: 500
+    letter_spacing: 0.025
+  grid_item_title:
+    small_size: 22
+    medium_size: 24
+    large_size: 28
+    weight: 500
+    letter_spacing: 0
+  grid_item_subtitle:
+    small_size: 13
+    medium_size: 15
+    large_size: 17
+    weight: 300
+    letter_spacing: 0
+  h1:
+    small_size: 25
+    medium_size: 35
+    large_size: 45
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.2
+  h2:
+    small_size: 28
+    medium_size: 30
+    large_size: 35
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.2
+  h3:
+    small_size: 24
+    medium_size: 25
+    large_size: 30
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.3
+  h4:
+    small_size: 20
+    medium_size: 22
+    large_size: 22
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.6
+  h5:
+    small_size: 17
+    medium_size: 20
+    large_size: 20
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.6
+  h6:
+    small_size: 17
+    medium_size: 20
+    large_size: 20
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.6
+  p:
+    small_size: 17
+    medium_size: 17
+    large_size: 17
+    weight: 300
+    letter_spacing: 0.02
+    line_height: 1.6
+  blockquote:
+    small_size: 20
+    medium_size: 20
+    large_size: 22
+    weight: 500
+    letter_spacing: 0
+    line_height: 1.6
+  buttons:
+    weight: 500
+    letter_spacing: 0
+
+advanced_settings:
+  ajax_loading: false
+  analytics_code: >
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111242558-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111242558-5');
+    </script>
+  custom_styles: ""
+  header_js: ""
+  footer_js: ""

@@ -1,0 +1,56 @@
+<header class="header">
+
+	<div class="wrap">
+
+		{% unless page.header_disabled %}
+		{% if site.data.settings.header_settings.logo_image %}
+		
+		
+		<a href="/" class="header__logo">
+			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
+		</a>
+		
+		<div class="header__text">	
+			<span id="title">{{ site.data.settings.header_settings.text_title }}</span>
+			<span id="subtitle">{{ site.data.settings.header_settings.text_subtitle }}</span>
+		</div>
+
+
+		{% else %}
+		<a href="/" class="header__title">
+			{{ site.data.settings.basic_settings.site_title }}
+		</a>
+		{% endif %}
+		{% endunless %}
+
+
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					{% assign thisurl = page.url | downcase | split: '/' %}
+					{% for item in site.data.settings.menu_settings.menu_items %}
+					{% assign itemurl = item.url | downcase | split: '/' %}
+					<li class="menu__list__item">
+						<a href="{{ item.url }}" class="menu__list__item__link {% if thisurl[1] == itemurl[1] %}nav-active-link
+							{% endif %}">{{ item.title }}</a>
+					</li>
+					{% endfor %}
+
+					{% unless page.url == "/" %}
+					<li class="menu__list__item" id="menu__search">
+						<div class="search">
+							<span id="looking-glass" class="fa fa-search"></span>
+							<input id="search-input">
+						</div>
+					</li>
+					{% endunless %}
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</header>
